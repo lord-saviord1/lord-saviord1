@@ -2,11 +2,17 @@
   "data_source": "GitHub REST API v3",
   "generated_by": "telemetry/generate-telemetry.js",
   "source_profile_repository": "lord-saviord1/lord-saviord1",
-  "last_updated": "2026-10-15T12:26:51.643Z",
+  "last_updated": "2026-10-15T12:50:10.505Z",
   "recent_commit_window_days": 30,
   "project_count": 15,
   "successful_project_count": 15,
   "failed_project_count": 0,
+  "profile_activity_reference": {
+    "url": "https://github.com/lord-saviord1",
+    "window_start": "2026-09-01",
+    "window_end": "2026-09-30",
+    "source_type": "optional_reference"
+  },
   "projects": [
     {
       "repo": "lord-saviord1/lasu-connect",
@@ -44,7 +50,11 @@
       "deployment_url": "https://lasu-connect.netlify.app/",
       "provider": "Netlify",
       "last_updated": "2026-10-15T12:26:42.433Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "lasu-connect.netlify.app",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/tag-it-on",
@@ -82,7 +92,11 @@
       "deployment_url": "https://tagiton.cipherpr.live",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:42.951Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "tagiton.cipherpr.live",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/jochebed",
@@ -120,7 +134,11 @@
       "deployment_url": "https://jochebedstouch.cipherpr.live",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:43.510Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "jochebedstouch.cipherpr.live",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/Penova",
@@ -158,7 +176,11 @@
       "deployment_url": "https://penova-eight.vercel.app",
       "provider": "Vercel",
       "last_updated": "2026-10-15T12:26:44.087Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "penova-eight.vercel.app",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/siteaboutme",
@@ -192,7 +214,11 @@
       "deployment_url": "https://portfolio.cipherpr.me",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:44.571Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "portfolio.cipherpr.me",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherpr-tech",
@@ -230,7 +256,11 @@
       "deployment_url": "https://cipherpr.tech",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:45.093Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "cipherpr.tech",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherpr-live",
@@ -264,7 +294,11 @@
       "deployment_url": "https://cipherpr.live",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:45.522Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "cipherpr.live",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherpr-me",
@@ -298,7 +332,11 @@
       "deployment_url": "https://cipherpr.me",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:45.989Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "cipherpr.me",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/fullmidnightshutdown",
@@ -334,7 +372,11 @@
       "deployment_url": "https://fullmidnightshutdown.cipherpr.live",
       "provider": "Cloudflare",
       "last_updated": "2026-10-15T12:26:47.541Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": "fullmidnightshutdown.cipherpr.live",
+      "provider_provenance": "inferred_from_deployment_url",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherstream-flutter",
@@ -368,7 +410,11 @@
       "deployment_url": null,
       "provider": "—",
       "last_updated": "2026-10-15T12:26:48.008Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": null,
+      "provider_provenance": "unknown",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherstream-frontend",
@@ -404,9 +450,13 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://cipherstream-frontend.vercel.app",
       "deployment_url": "https://cipherstream-frontend.vercel.app",
-      "provider": "Vercel",
+      "provider": "—",
       "last_updated": "2026-10-15T12:26:48.470Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": null,
+      "provider_provenance": "unknown",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherstream-backend",
@@ -438,9 +488,13 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://cipherstream-backend.vercel.app",
       "deployment_url": "https://cipherstream-backend.vercel.app",
-      "provider": "Vercel",
+      "provider": "—",
       "last_updated": "2026-10-15T12:26:49.983Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": null,
+      "provider_provenance": "unknown",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipherstream-admin",
@@ -474,9 +528,13 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://cipherstream-admin.vercel.app",
       "deployment_url": "https://cipherstream-admin.vercel.app",
-      "provider": "Vercel",
+      "provider": "—",
       "last_updated": "2026-10-15T12:26:50.566Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": null,
+      "provider_provenance": "unknown",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/cipher-audit",
@@ -510,7 +568,11 @@
       "deployment_url": null,
       "provider": "—",
       "last_updated": "2026-10-15T12:26:51.082Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": null,
+      "provider_provenance": "unknown",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     },
     {
       "repo": "lord-saviord1/offline-payment-proof",
@@ -548,7 +610,11 @@
       "deployment_url": null,
       "provider": "—",
       "last_updated": "2026-10-15T12:26:51.642Z",
-      "data_source": "GitHub REST API v3"
+      "data_source": "GitHub REST API v3",
+      "deployment_hostname": null,
+      "provider_provenance": "unknown",
+      "cache_fallback": true,
+      "cache_fallback_reason": "request_failed_403"
     }
   ],
   "language_telemetry": [
@@ -576,6 +642,493 @@
       "language": "Dart",
       "bytes": 15343,
       "percentage": 1.08
+    }
+  ],
+  "service_zones": [
+    {
+      "zone": "Source Control & Collaboration",
+      "services": [
+        {
+          "name": "Git",
+          "role": "Version control and commit history management",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub repository commits, branches, and history endpoints"
+        },
+        {
+          "name": "GitHub",
+          "role": "Repository hosting and collaboration",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub API repository metadata and collaboration endpoints"
+        },
+        {
+          "name": "GitHub Copilot",
+          "role": "AI-assisted development",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "GitHub Actions",
+          "role": "Workflow automation and telemetry regeneration",
+          "provenance": "verified_from_repository",
+          "evidence": ".github/workflows/update-telemetry.yml"
+        },
+        {
+          "name": "Pull Requests",
+          "role": "Code review and merge workflow",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub pull request and commit linkage in repository activity"
+        },
+        {
+          "name": "Branches",
+          "role": "Parallel development lanes",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub default branch metadata and branch APIs"
+        },
+        {
+          "name": "Commits / History",
+          "role": "Versioned change timeline",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub commit history API"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "Data & Backend Services",
+      "services": [
+        {
+          "name": "MongoDB",
+          "role": "Document database",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Mongoose",
+          "role": "MongoDB object modeling",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Supabase",
+          "role": "SQL-backed backend services",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "SQL",
+          "role": "Relational data workflows",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Socket.IO",
+          "role": "Realtime event transport",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "AI & Developer Intelligence",
+      "services": [
+        {
+          "name": "Claude AI / Anthropic API",
+          "role": "AI workflows and assistant integration",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "GitHub Copilot",
+          "role": "Code assistance and coding acceleration",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "Hosting & Deployment",
+      "services": [
+        {
+          "name": "Cloudflare",
+          "role": "DNS, edge delivery, and hosted project surfaces",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "Deployment domains and provider inference from project URLs"
+        },
+        {
+          "name": "Cloudflare Pages",
+          "role": "Static and edge site deployment",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Netlify",
+          "role": "Frontend deployment platform",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "https://lasu-connect.netlify.app/"
+        },
+        {
+          "name": "Vercel",
+          "role": "Web app hosting and preview deployments",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "Project deployment URLs ending in vercel.app"
+        },
+        {
+          "name": "GitHub Pages",
+          "role": "Repository-backed static hosting",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "Media & Communication",
+      "services": [
+        {
+          "name": "Cloudinary",
+          "role": "Media storage and transformation",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Multer",
+          "role": "Multipart uploads and ingestion",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Resend",
+          "role": "Transactional email delivery",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "Runtime & Infrastructure",
+      "services": [
+        {
+          "name": "Node.js",
+          "role": "Application runtime",
+          "provenance": "verified_from_repository",
+          "evidence": "JavaScript/TypeScript repositories and package-managed workflows"
+        },
+        {
+          "name": "Docker",
+          "role": "Containerized runtime environments",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "npm",
+          "role": "Package and script lifecycle management",
+          "provenance": "verified_from_repository",
+          "evidence": "Node.js telemetry workflow and package-managed project ecosystems"
+        },
+        {
+          "name": "Wrangler",
+          "role": "Cloudflare deployment runtime tooling",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Environment Configuration",
+          "role": "Cross-environment runtime configuration",
+          "provenance": "verified_from_repository",
+          "evidence": "Workflow and deployment configuration patterns"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "Security & API Protection",
+      "services": [
+        {
+          "name": "JWT",
+          "role": "Token-based authentication",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "bcrypt",
+          "role": "Credential hashing",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Helmet",
+          "role": "HTTP security hardening",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "CORS",
+          "role": "Cross-origin access controls",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Rate Limiting",
+          "role": "API abuse protection",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    },
+    {
+      "zone": "Observability & Product Operations",
+      "services": [
+        {
+          "name": "Git History",
+          "role": "Change lineage and regression tracking",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub commit timeline data"
+        },
+        {
+          "name": "Deployment Status",
+          "role": "Provider and live endpoint visibility",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "Telemetry provider inference and configured deployment URLs"
+        },
+        {
+          "name": "Manual QA",
+          "role": "Human validation before and after release",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed process in profile telemetry requirements"
+        },
+        {
+          "name": "Live-site Verification",
+          "role": "Production URL availability checks",
+          "provenance": "verified_from_repository",
+          "evidence": "Configured deployment URLs in telemetry/projects.json"
+        }
+      ],
+      "connected_repo_count": 15,
+      "connected_repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/lasu-connect",
+        "lord-saviord1/offline-payment-proof",
+        "lord-saviord1/Penova",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ]
+    }
+  ],
+  "service_provider_telemetry": [
+    {
+      "provider": "—",
+      "role": "No deployment provider detected",
+      "provenance": "unknown",
+      "evidence_source": "unknown",
+      "repositories": [
+        "lord-saviord1/cipher-audit",
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-flutter",
+        "lord-saviord1/cipherstream-frontend",
+        "lord-saviord1/offline-payment-proof"
+      ],
+      "domains": [],
+      "live_urls": [
+        "https://cipherstream-admin.vercel.app",
+        "https://cipherstream-backend.vercel.app",
+        "https://cipherstream-frontend.vercel.app"
+      ]
+    },
+    {
+      "provider": "Cloudflare",
+      "role": "Deployment and live delivery",
+      "provenance": "inferred_from_deployment_url",
+      "evidence_source": "deployment_url",
+      "repositories": [
+        "lord-saviord1/cipherpr-live",
+        "lord-saviord1/cipherpr-me",
+        "lord-saviord1/cipherpr-tech",
+        "lord-saviord1/fullmidnightshutdown",
+        "lord-saviord1/jochebed",
+        "lord-saviord1/siteaboutme",
+        "lord-saviord1/tag-it-on"
+      ],
+      "domains": [
+        "cipherpr.live",
+        "cipherpr.me",
+        "cipherpr.tech",
+        "fullmidnightshutdown.cipherpr.live",
+        "jochebedstouch.cipherpr.live",
+        "portfolio.cipherpr.me",
+        "tagiton.cipherpr.live"
+      ],
+      "live_urls": [
+        "https://cipherpr.live",
+        "https://cipherpr.me",
+        "https://cipherpr.tech",
+        "https://fullmidnightshutdown.cipherpr.live",
+        "https://jochebedstouch.cipherpr.live",
+        "https://portfolio.cipherpr.me",
+        "https://tagiton.cipherpr.live"
+      ]
+    },
+    {
+      "provider": "Netlify",
+      "role": "Deployment and live delivery",
+      "provenance": "inferred_from_deployment_url",
+      "evidence_source": "deployment_url",
+      "repositories": [
+        "lord-saviord1/lasu-connect"
+      ],
+      "domains": [
+        "lasu-connect.netlify.app"
+      ],
+      "live_urls": [
+        "https://lasu-connect.netlify.app/"
+      ]
+    },
+    {
+      "provider": "Vercel",
+      "role": "Deployment and live delivery",
+      "provenance": "inferred_from_deployment_url",
+      "evidence_source": "deployment_url",
+      "repositories": [
+        "lord-saviord1/Penova"
+      ],
+      "domains": [
+        "penova-eight.vercel.app"
+      ],
+      "live_urls": [
+        "https://penova-eight.vercel.app"
+      ]
     }
   ]
 }

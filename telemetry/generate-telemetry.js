@@ -52,6 +52,24 @@ function inferHostingProvider(url) {
   }
 }
 
+function extractHostname(url) {
+  if (!url) return null;
+  try {
+    return new URL(url).hostname.toLowerCase();
+  } catch {
+    return null;
+  }
+}
+
+function formatProvenance(provenance) {
+  const map = {
+    verified_from_repository: 'verified_from_repository',
+    confirmed_by_owner: 'confirmed_by_owner',
+    inferred_from_deployment_url: 'inferred_from_deployment_url'
+  };
+  return map[provenance] || 'unknown';
+}
+
 function normalizeLanguages(languageBytes) {
   const total = Object.values(languageBytes).reduce((sum, value) => sum + value, 0);
   if (!total) {
@@ -127,6 +145,40 @@ async function apiGet(pathname) {
   }
 }
 
+async function readExistingTelemetry() {
+  try {
+    const raw = await fs.readFile(dataPath, 'utf8');
+    return JSON.parse(raw);
+  } catch {
+    return null;
+  }
+}
+
+function shouldUseCachedProject(project) {
+  if (!project || project.status !== 'unavailable') return false;
+  const knownTransientErrors = new Set(['request_failed_403', 'rate_limited', 'network_error']);
+  if (knownTransientErrors.has(project.error)) return true;
+  return String(project.error || '').startsWith('network_error:');
+}
+
+function mergeWithCachedProject(current, cached) {
+  if (!cached || cached.status !== 'ok') return current;
+  const mergedProvider = current.provider && current.provider !== '—' ? current.provider : cached.provider || '—';
+  const mergedProviderProvenance =
+    current.provider_provenance && current.provider_provenance !== 'unknown'
+      ? current.provider_provenance
+      : cached.provider_provenance || 'unknown';
+  return {
+    ...cached,
+    deployment_url: current.deployment_url || cached.deployment_url || null,
+    deployment_hostname: current.deployment_hostname || cached.deployment_hostname || null,
+    provider: mergedProvider,
+    provider_provenance: mergedProviderProvenance,
+    cache_fallback: true,
+    cache_fallback_reason: current.error
+  };
+}
+
 async function collectProjectTelemetry(project, sinceIso, windowDays) {
   const repo = String(project.repo || '').trim();
   const [owner, repoName] = repo.split('/');
@@ -138,7 +190,9 @@ async function collectProjectTelemetry(project, sinceIso, windowDays) {
       status: 'unavailable',
       error: 'invalid_repository_name',
       deployment_url: deploymentUrl,
+      deployment_hostname: extractHostname(deploymentUrl),
       provider: inferHostingProvider(deploymentUrl),
+      provider_provenance: deploymentUrl ? 'inferred_from_deployment_url' : 'unknown',
       last_updated: null,
       data_source: 'GitHub REST API v3'
     };
@@ -151,7 +205,9 @@ async function collectProjectTelemetry(project, sinceIso, windowDays) {
       status: 'unavailable',
       error: repoResponse.error,
       deployment_url: deploymentUrl,
+      deployment_hostname: extractHostname(deploymentUrl),
       provider: inferHostingProvider(deploymentUrl),
+      provider_provenance: deploymentUrl ? 'inferred_from_deployment_url' : 'unknown',
       last_updated: null,
       data_source: 'GitHub REST API v3'
     };
@@ -193,6 +249,7 @@ async function collectProjectTelemetry(project, sinceIso, windowDays) {
   const bounded = recentCommitCount === 100;
 
   const resolvedDeployment = deploymentUrl || repository.homepage || null;
+  const resolvedProvider = inferHostingProvider(resolvedDeployment);
 
   return {
     repo,
@@ -214,7 +271,9 @@ async function collectProjectTelemetry(project, sinceIso, windowDays) {
     recent_commit_count_bounded: bounded,
     homepage: repository.homepage || null,
     deployment_url: resolvedDeployment,
-    provider: inferHostingProvider(resolvedDeployment),
+    deployment_hostname: extractHostname(resolvedDeployment),
+    provider: resolvedProvider,
+    provider_provenance: resolvedDeployment ? 'inferred_from_deployment_url' : 'unknown',
     last_updated: new Date().toISOString(),
     data_source: 'GitHub REST API v3'
   };
@@ -239,22 +298,132 @@ function buildLanguageTelemetry(projects) {
   }));
 }
 
+function buildServiceZonesTelemetry(configServiceZones, projects) {
+  const connectedRepos = Array.from(
+    new Set(projects.filter((project) => project.repo).map((project) => project.repo))
+  ).sort((a, b) => a.localeCompare(b));
+
+  return (configServiceZones || []).map((zone) => ({
+    zone: zone.zone,
+    services: (zone.services || []).map((service) => ({
+      name: service.name,
+      role: service.role,
+      provenance: formatProvenance(service.provenance),
+      evidence: service.evidence
+    })),
+    connected_repo_count: connectedRepos.length,
+    connected_repositories: connectedRepos
+  }));
+}
+
+function buildServiceProviderTelemetry(projects) {
+  const providerMap = new Map();
+
+  for (const project of projects) {
+    const provider = project.provider || '—';
+    const key = provider.toLowerCase();
+
+    if (!providerMap.has(key)) {
+      providerMap.set(key, {
+        provider,
+        role: provider === '—' ? 'No deployment provider detected' : 'Deployment and live delivery',
+        provenance: formatProvenance(project.provider_provenance),
+        evidence_source:
+          project.provider_provenance === 'inferred_from_deployment_url'
+            ? 'deployment_url'
+            : project.provider_provenance,
+        repositories: [],
+        domains: [],
+        live_urls: []
+      });
+    }
+
+    const item = providerMap.get(key);
+    item.repositories.push(project.repo);
+
+    if (project.deployment_hostname) {
+      item.domains.push(project.deployment_hostname);
+    }
+
+    if (project.deployment_url) {
+      item.live_urls.push(project.deployment_url);
+    }
+  }
+
+  return Array.from(providerMap.values())
+    .map((item) => ({
+      ...item,
+      repositories: Array.from(new Set(item.repositories)).sort((a, b) => a.localeCompare(b)),
+      domains: Array.from(new Set(item.domains)).sort((a, b) => a.localeCompare(b)),
+      live_urls: Array.from(new Set(item.live_urls)).sort((a, b) => a.localeCompare(b))
+    }))
+    .sort((a, b) => a.provider.localeCompare(b.provider));
+}
+
 function buildGeneratedDashboardMarkdown(data) {
   const lines = [];
 
-  lines.push('### `AUTO-GENERATED REPOSITORY DASHBOARD`');
+  lines.push('### `AUTO-GENERATED TELEMETRY GUI`');
   lines.push('');
-  lines.push('| Overview | Value |');
-  lines.push('|---|---|');
-  lines.push(`| Status | ${data.failed_project_count ? '⚠️ partial (some repositories unavailable)' : '✅ healthy'} |`);
-  lines.push(`| Last updated (UTC) | \`${data.last_updated}\` |`);
-  lines.push(`| Data source | ${data.data_source} |`);
-  lines.push(`| Projects scanned | \`${data.successful_project_count}/${data.project_count}\` |`);
+  lines.push('## `// TELEMETRY COMMAND CENTER`');
+  lines.push('');
+  lines.push('<table width="100%">');
+  lines.push('<tr>');
+  lines.push(`<td><b>Status</b><br/>${data.failed_project_count ? '⚠️ partial' : '✅ healthy'}</td>`);
+  lines.push(`<td><b>Last updated (UTC)</b><br/><code>${data.last_updated}</code></td>`);
+  lines.push(`<td><b>Data source</b><br/>${data.data_source}</td>`);
+  lines.push(`<td><b>Projects scanned</b><br/><code>${data.successful_project_count}/${data.project_count}</code></td>`);
   lines.push(
-    `| Commit window | \`${data.recent_commit_window_days} days\` (bounded per repo: \`100 commits\`) |`
+    `<td><b>Commit window</b><br/><code>${data.recent_commit_window_days} days</code> · per repo cap <code>100 commits</code></td>`
   );
+  lines.push('</tr>');
+  lines.push('</table>');
+  lines.push('');
+  lines.push('## `// SERVICES & PLATFORM CONTROL`');
+  lines.push('');
+  lines.push('<table width="100%">');
+  lines.push('<tr><th align="left">Zone</th><th align="left">Service panel</th><th align="left">Role matrix</th><th align="left">Provenance</th><th align="left">Connected repositories</th></tr>');
+
+  for (const zone of data.service_zones) {
+    const servicePanel = zone.services.map((service) => `<code>${service.name}</code>`).join(' · ');
+    const rolePanel = zone.services.map((service) => `${service.name}: ${service.role}`).join('<br/>');
+    const provenancePanel = zone.services
+      .map((service) => `${service.name}: <code>${service.provenance}</code>`)
+      .join('<br/>');
+
+    lines.push(
+      `<tr><td><b>${zone.zone}</b></td><td>${servicePanel}</td><td>${rolePanel}</td><td>${provenancePanel}</td><td>${zone.connected_repo_count} repos</td></tr>`
+    );
+  }
+  lines.push('</table>');
   lines.push('');
 
+  lines.push('## `// SERVICE PROVIDER TELEMETRY`');
+  lines.push('');
+  lines.push('<table width="100%">');
+  lines.push('<tr><th align="left">Provider</th><th align="left">Role</th><th align="left">Evidence / source</th><th align="left">Connected repositories / domains</th><th align="left">Live URLs</th></tr>');
+
+  for (const provider of data.service_provider_telemetry) {
+    const repos = provider.repositories.length
+      ? provider.repositories.map((repo) => `<code>${repo}</code>`).join('<br/>')
+      : '—';
+    const domains = provider.domains.length
+      ? provider.domains.map((domain) => `<code>${domain}</code>`).join('<br/>')
+      : '—';
+    const links = provider.live_urls.length
+      ? provider.live_urls.map((url) => `<a href="${url}">${url}</a>`).join('<br/>')
+      : '—';
+    const evidence = `${provider.evidence_source}<br/><code>${provider.provenance}</code>`;
+
+    lines.push(
+      `<tr><td><b>${provider.provider}</b></td><td>${provider.role}</td><td>${evidence}</td><td>${repos}<br/>${domains}</td><td>${links}</td></tr>`
+    );
+  }
+  lines.push('</table>');
+  lines.push('');
+
+  lines.push('## `// SOURCE CONTROL & PROJECT ACTIVITY`');
+  lines.push('');
   lines.push('| Project | Stack / languages | Last update | Latest commit | Deployment | Provider |');
   lines.push('|---|---|---|---|---|---|');
 
@@ -290,6 +459,8 @@ function buildGeneratedDashboardMarkdown(data) {
   }
 
   lines.push('');
+  lines.push('## `// LANGUAGE TELEMETRY MATRIX`');
+  lines.push('');
   lines.push('| Language | Bytes | Percentage |');
   lines.push('|---|---:|---:|');
 
@@ -301,6 +472,18 @@ function buildGeneratedDashboardMarkdown(data) {
     lines.push('| Unavailable | 0 | 0% |');
   }
 
+  lines.push('');
+  lines.push('## `// TELEMETRY NOTES`');
+  lines.push('');
+  if (data.profile_activity_reference?.url) {
+    lines.push(
+     `> Optional profile activity reference (${data.profile_activity_reference.window_start} to ${data.profile_activity_reference.window_end}): [${data.profile_activity_reference.url}](${data.profile_activity_reference.url})`
+    );
+    lines.push('');
+  }
+  lines.push(
+    '> Provenance labels: `verified_from_repository`, `confirmed_by_owner`, `inferred_from_deployment_url`.'
+  );
   lines.push('');
   lines.push(
     `> JSON artifact: [telemetry/data.json](./telemetry/data.json) · workflow: [.github/workflows/update-telemetry.yml](./.github/workflows/update-telemetry.yml)`
@@ -334,6 +517,12 @@ function upsertTelemetryBlock(readmeContent, blockContent) {
 async function main() {
   const configRaw = await fs.readFile(configPath, 'utf8');
   const config = JSON.parse(configRaw);
+  const existingTelemetry = await readExistingTelemetry();
+  const cachedProjectsByRepo = new Map(
+    (existingTelemetry?.projects || [])
+      .filter((project) => project && project.repo)
+      .map((project) => [String(project.repo).toLowerCase(), project])
+  );
 
   const excluded = new Set((config.excluded_repositories || []).map((repo) => repo.toLowerCase()));
   const seen = new Set();
@@ -354,10 +543,18 @@ async function main() {
   const projectTelemetry = [];
   for (const project of filteredProjects) {
     // Intentional sequential collection to preserve deterministic API ordering in logs and output.
-    projectTelemetry.push(await collectProjectTelemetry(project, sinceIso, windowDays));
+    const current = await collectProjectTelemetry(project, sinceIso, windowDays);
+    if (shouldUseCachedProject(current)) {
+      const cached = cachedProjectsByRepo.get(String(current.repo).toLowerCase());
+      projectTelemetry.push(mergeWithCachedProject(current, cached));
+      continue;
+    }
+    projectTelemetry.push(current);
   }
 
   const languageTelemetry = buildLanguageTelemetry(projectTelemetry);
+  const serviceZonesTelemetry = buildServiceZonesTelemetry(config.service_zones, projectTelemetry);
+  const serviceProviderTelemetry = buildServiceProviderTelemetry(projectTelemetry);
   const successfulCount = projectTelemetry.filter((project) => project.status === 'ok').length;
   const failedCount = projectTelemetry.length - successfulCount;
 
@@ -370,8 +567,11 @@ async function main() {
     project_count: projectTelemetry.length,
     successful_project_count: successfulCount,
     failed_project_count: failedCount,
+    profile_activity_reference: config.profile_activity_reference || null,
     projects: projectTelemetry,
-    language_telemetry: languageTelemetry
+    language_telemetry: languageTelemetry,
+    service_zones: serviceZonesTelemetry,
+    service_provider_telemetry: serviceProviderTelemetry
   };
 
   const generatedBody = buildGeneratedDashboardMarkdown(data);
