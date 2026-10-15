@@ -1,6 +1,270 @@
 {
   "data_source": "GitHub REST API v3",
   "recent_commit_window_days": 30,
+  "profile_activity_reference": {
+    "url": "https://github.com/lord-saviord1",
+    "window_start": "2026-09-01",
+    "window_end": "2026-09-30",
+    "source_type": "optional_reference"
+  },
+  "service_zones": [
+    {
+      "zone": "Source Control & Collaboration",
+      "services": [
+        {
+          "name": "Git",
+          "role": "Version control and commit history management",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub repository commits, branches, and history endpoints"
+        },
+        {
+          "name": "GitHub",
+          "role": "Repository hosting and collaboration",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub API repository metadata and collaboration endpoints"
+        },
+        {
+          "name": "GitHub Copilot",
+          "role": "AI-assisted development",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "GitHub Actions",
+          "role": "Workflow automation and telemetry regeneration",
+          "provenance": "verified_from_repository",
+          "evidence": ".github/workflows/update-telemetry.yml"
+        },
+        {
+          "name": "Pull Requests",
+          "role": "Code review and merge workflow",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub pull request and commit linkage in repository activity"
+        },
+        {
+          "name": "Branches",
+          "role": "Parallel development lanes",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub default branch metadata and branch APIs"
+        },
+        {
+          "name": "Commits / History",
+          "role": "Versioned change timeline",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub commit history API"
+        }
+      ]
+    },
+    {
+      "zone": "Data & Backend Services",
+      "services": [
+        {
+          "name": "MongoDB",
+          "role": "Document database",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Mongoose",
+          "role": "MongoDB object modeling",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Supabase",
+          "role": "SQL-backed backend services",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "SQL",
+          "role": "Relational data workflows",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Socket.IO",
+          "role": "Realtime event transport",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ]
+    },
+    {
+      "zone": "AI & Developer Intelligence",
+      "services": [
+        {
+          "name": "Claude AI / Anthropic API",
+          "role": "AI workflows and assistant integration",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "GitHub Copilot",
+          "role": "Code assistance and coding acceleration",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ]
+    },
+    {
+      "zone": "Hosting & Deployment",
+      "services": [
+        {
+          "name": "Cloudflare",
+          "role": "DNS, edge delivery, and hosted project surfaces",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "Deployment domains and provider inference from project URLs"
+        },
+        {
+          "name": "Cloudflare Pages",
+          "role": "Static and edge site deployment",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Netlify",
+          "role": "Frontend deployment platform",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "https://lasu-connect.netlify.app/"
+        },
+        {
+          "name": "Vercel",
+          "role": "Web app hosting and preview deployments",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "Project deployment URLs ending in vercel.app"
+        },
+        {
+          "name": "GitHub Pages",
+          "role": "Repository-backed static hosting",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ]
+    },
+    {
+      "zone": "Media & Communication",
+      "services": [
+        {
+          "name": "Cloudinary",
+          "role": "Media storage and transformation",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Multer",
+          "role": "Multipart uploads and ingestion",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Resend",
+          "role": "Transactional email delivery",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ]
+    },
+    {
+      "zone": "Runtime & Infrastructure",
+      "services": [
+        {
+          "name": "Node.js",
+          "role": "Application runtime",
+          "provenance": "verified_from_repository",
+          "evidence": "JavaScript/TypeScript repositories and package-managed workflows"
+        },
+        {
+          "name": "Docker",
+          "role": "Containerized runtime environments",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "npm",
+          "role": "Package and script lifecycle management",
+          "provenance": "verified_from_repository",
+          "evidence": "Node.js telemetry workflow and package-managed project ecosystems"
+        },
+        {
+          "name": "Wrangler",
+          "role": "Cloudflare deployment runtime tooling",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Environment Configuration",
+          "role": "Cross-environment runtime configuration",
+          "provenance": "verified_from_repository",
+          "evidence": "Workflow and deployment configuration patterns"
+        }
+      ]
+    },
+    {
+      "zone": "Security & API Protection",
+      "services": [
+        {
+          "name": "JWT",
+          "role": "Token-based authentication",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "bcrypt",
+          "role": "Credential hashing",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Helmet",
+          "role": "HTTP security hardening",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "CORS",
+          "role": "Cross-origin access controls",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        },
+        {
+          "name": "Rate Limiting",
+          "role": "API abuse protection",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed usage in profile telemetry requirements"
+        }
+      ]
+    },
+    {
+      "zone": "Observability & Product Operations",
+      "services": [
+        {
+          "name": "Git History",
+          "role": "Change lineage and regression tracking",
+          "provenance": "verified_from_repository",
+          "evidence": "GitHub commit timeline data"
+        },
+        {
+          "name": "Deployment Status",
+          "role": "Provider and live endpoint visibility",
+          "provenance": "inferred_from_deployment_url",
+          "evidence": "Telemetry provider inference and configured deployment URLs"
+        },
+        {
+          "name": "Manual QA",
+          "role": "Human validation before and after release",
+          "provenance": "confirmed_by_owner",
+          "evidence": "Owner-confirmed process in profile telemetry requirements"
+        },
+        {
+          "name": "Live-site Verification",
+          "role": "Production URL availability checks",
+          "provenance": "verified_from_repository",
+          "evidence": "Configured deployment URLs in telemetry/projects.json"
+        }
+      ]
+    }
+  ],
   "excluded_repositories": [
     "lord-saviord1/Knightbot-MD",
     "lord-saviord1/Megatron-Bot",

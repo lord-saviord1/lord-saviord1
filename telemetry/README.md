@@ -25,6 +25,15 @@ Update `telemetry/projects.json` and re-run the generator:
 - optionally set `deployment_url`
 - keep excluded repositories in `excluded_repositories`
 
+You can also maintain GUI service telemetry metadata in `projects.json`:
+
+- `service_zones[]`: categorized services/tools displayed in `// SERVICES & PLATFORM CONTROL`
+- each service supports deterministic provenance labels via `provenance`:
+  - `verified_from_repository`
+  - `confirmed_by_owner`
+  - `inferred_from_deployment_url`
+- `profile_activity_reference` can store an optional profile activity URL and date window
+
 ## Output files
 
 - `telemetry/data.json`: machine-readable telemetry artifact
@@ -34,3 +43,5 @@ Update `telemetry/projects.json` and re-run the generator:
 ## Data limitations
 
 Telemetry is based on GitHub REST API repository metadata and commit history. It cannot infer private local terminal-only activity, unpublished work, or non-GitHub deployment internals.
+
+Service provider telemetry is generated from explicit config plus deployment URL/provider inference. No local-only terminal usage data is collected.
