@@ -2,12 +2,12 @@
 
 # `LORD-SAVIORD1`
 
-### `PRODUCT ENGINEER  //  IMMERSIVE WEB BUILDER  //  CIPHER PR`
+### **PRODUCT ENGINEER · IMMERSIVE WEB BUILDER · CIPHER PR**
 
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="96" alt="GitHub YOLO achievement" />
 
 [![YOLO](https://img.shields.io/badge/ACHIEVEMENT-YOLO-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lord-saviord1?tab=achievements)
-[![Git](https://img.shields.io/badge/WORKFLOW-Git%20%2B%20GitHub-F05032?style=for-the-badge&logo=git&logoColor=white)](https://github.com/lord-saviord1)
+[![Git workflow](https://img.shields.io/badge/WORKFLOW-Git%20%2B%20GitHub-F05032?style=for-the-badge&logo=git&logoColor=white)](https://github.com/lord-saviord1)
 [![Cipher PR](https://img.shields.io/badge/STUDIO-Cipher%20PR-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://cipherpr.me)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,35:111827,70:312e81,100:06b6d4&height=190&section=header&text=CIPHER%20PR%20%2F%2F%20BUILD%20MODE&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
@@ -42,377 +42,339 @@
 ╰────────────────────────────────────────────────────────────────────────────╯
 ```
 
-I build at the intersection of **software, product design, real-world utility, PR and immersive web experiences**. My work moves from static interfaces to full-stack platforms, mobile experiments, WebGL scenes, 3D product presentations and deployed digital systems.
-
-> **Build the interface. Wire the system. Shape the depth. Ship the experience.**
-
 <div align="center">
+
+**Build the interface · wire the system · shape the depth · ship the experience**
 
 [Portfolio](https://portfolio.cipherpr.me) · [Cipher PR](https://cipherpr.me) · [Technology](https://cipherpr.tech) · [Live](https://cipherpr.live) · [Cipher PR GitHub](https://github.com/Cipher-PR)
 
 </div>
 
-## `// LIVE SYSTEM STATUS`
+## `// COMMAND CENTER`
 
-```text
-╭─[ PRODUCT CONTROL ]─────────────────────────────────────────────────────────╮
-│  PRIMARY BUILD       LASU Connect                                          │
-│  IMMERSIVE BUILD     TAG IT ON · Jochebed's Touch                         │
-│  PLATFORM BUILD      PENOVA                                                │
-│  MOBILE SURFACE      CipherStream Flutter                                  │
-│  PORTFOLIO NODE      Site About Me                                         │
-│  STUDIO NETWORK      cipherpr.me · cipherpr.tech · cipherpr.live            │
-│  DELIVERY            Cloudflare · Vercel · Netlify · GitHub Pages           │
-│  SOURCE OF TRUTH     Git repositories, commits and deployed surfaces        │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+<table width="100%">
+<tr>
+<td width="25%" align="center"><b>PRIMARY BUILD</b><br/><br/>🟢<br/><a href="https://lasu-connect.netlify.app/"><b>LASU CONNECT</b></a><br/><sub>active full-stack platform</sub></td>
+<td width="25%" align="center"><b>IMMERSIVE WEB</b><br/><br/>🔵<br/><a href="https://tagiton.cipherpr.live"><b>TAG · JOCHEBED</b></a><br/><sub>3D, WebGL and depth systems</sub></td>
+<td width="25%" align="center"><b>MOBILE SURFACE</b><br/><br/>🟣<br/><a href="https://github.com/lord-saviord1/cipherstream-flutter"><b>FLUTTER</b></a><br/><sub>Dart product interface</sub></td>
+<td width="25%" align="center"><b>STUDIO NETWORK</b><br/><br/>🟠<br/><a href="https://cipherpr.me"><b>CIPHER PR</b></a><br/><sub>brand, products and domains</sub></td>
+</tr>
+</table>
 
-## `// PRIMARY OPERATION: LASU CONNECT`
+## `// LASU CONNECT // ACTIVE BUILD GUI`
 
 <a href="https://lasu-connect.netlify.app/"><img align="right" width="390" src="https://image.thum.io/get/width/1200/crop/800/https://lasu-connect.netlify.app/" alt="LASU Connect live preview" /></a>
 
-### `LASU Connect` — largest and most active build
+### The largest and most active build
 
-A student-built campus platform for **real-time communication, events and campus channels**. This is currently the main active repository across my projects.
+LASU Connect is a student-built platform for **real-time communication, events and campus channels**. It is currently the main active repository across my projects.
 
-```text
-╭─[ LASU CONNECT TELEMETRY ]──────────────────────────────────────────────────╮
-│  repository   lord-saviord1/lasu-connect                                   │
-│  branch       master                                                       │
-│  latest push  15 October 2026                                              │
-│  languages    HTML · JavaScript · CSS                                     │
-│  frontend     responsive web UI · Bootstrap · Bootstrap Icons              │
-│  backend      Node.js · Express · MongoDB · Mongoose                       │
-│  realtime     Socket.IO                                                   │
-│  identity     JWT · bcrypt · protected routes                              │
-│  protection   Helmet · CORS · express-rate-limit                           │
-│  media        Multer · Cloudinary                                          │
-│  messaging    Resend / email integration                                  │
-│  deployment   Netlify                                                     │
-│  state        actively evolving                                            │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
-
-**Product surface:** real-time chat, campus channels, event tickets, QR entry flows, follows, posts, voting, authentication and media infrastructure.
+<table width="55%">
+<tr><td><b>PRODUCT</b></td><td>Chat · events · campus channels · ticketing</td></tr>
+<tr><td><b>FRONTEND</b></td><td>HTML · CSS · JavaScript · Bootstrap · Bootstrap Icons</td></tr>
+<tr><td><b>BACKEND</b></td><td>Node.js · Express · REST APIs</td></tr>
+<tr><td><b>DATA</b></td><td>MongoDB · Mongoose · Supabase workflow</td></tr>
+<tr><td><b>REALTIME</b></td><td>Socket.IO</td></tr>
+<tr><td><b>SECURITY</b></td><td>JWT · bcrypt · Helmet · CORS · rate limiting</td></tr>
+<tr><td><b>MEDIA</b></td><td>Multer · Cloudinary · Resend</td></tr>
+<tr><td><b>DELIVERY</b></td><td>Netlify · custom live surface</td></tr>
+<tr><td><b>STATUS</b></td><td>🟢 actively evolving</td></tr>
+</table>
 
 [![Open LASU Connect](https://img.shields.io/badge/OPEN%20LIVE%20BUILD-las u--connect.netlify.app-06B6D4?style=for-the-badge&logo=netlify&logoColor=white)](https://lasu-connect.netlify.app/)
 
 [Repository](https://github.com/lord-saviord1/lasu-connect) · [Live app](https://lasu-connect.netlify.app/) · [Commit history](https://github.com/lord-saviord1/lasu-connect/commits/master)
 
-## `// EXTREME STACK CONSOLE`
+## `// EXTREME STACK DASHBOARD`
 
-> A technology map assembled from repository languages, source files, package manifests, deployment configuration, project history and confirmed workflow details.
+<div align="center">
 
-```text
-╭─[ CIPHER STACK MONITOR ]────────────────────────────────────────────────────╮
-│  SIGNAL        TECHNOLOGY                                                   │
-├────────────────────────────────────────────────────────────────────────────┤
-│  languages     HTML · CSS · JavaScript · TypeScript · Dart                  │
-│  frontend      React · Next.js · React Three Fiber                          │
-│  3D / render   Three.js · WebGL · GLSL-style shaders · Canvas               │
-│  motion        GSAP · ScrollTrigger · Lenis · requestAnimationFrame         │
-│  styling       Tailwind CSS · Bootstrap · Bootstrap Icons · plain CSS       │
-│  backend       Node.js · Express · REST APIs · Socket.IO                    │
-│  data          MongoDB · Mongoose · Supabase / SQL*                         │
-│  identity      JWT · bcrypt · validation · protected routes                 │
-│  media         Cloudinary · Multer                                         │
-│  AI / SEO      Claude API · Schema.org · JSON-LD · Search Console CSV       │
-│  mobile        Flutter · Dart                                               │
-│  delivery      GitHub Pages · Cloudflare Pages · Vercel · Netlify           │
-│  operations    Git · GitHub · Wrangler · Docker · environment configuration │
-│  workflow      VS Code · npm · manual QA · deployment iteration             │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+### `LANGUAGES & RUNTIMES`
 
-`* Supabase and SQL are included from my confirmed project workflow; the visible public repositories do not expose every Supabase configuration detail.`
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-### Frontend / immersive web GUI
+### `INTERFACE & IMMERSIVE WEB`
 
-```text
-╭─[ FRONTEND RENDER PIPELINE ]────────────────────────────────────────────────╮
-│  markup       HTML5                                                        │
-│  styling      CSS3 · responsive CSS · design tokens                         │
-│  components   React · Next.js · React Three Fiber                          │
-│  3D           Three.js · Drei · WebGL · Canvas textures                     │
-│  motion       GSAP · ScrollTrigger · Lenis · CSS keyframes                  │
-│  depth        parallax · perspective grids · far/mid/near scene layers      │
-│  interaction   pointer tracking · drag / throw · collisions · smooth scroll │
-│  resilience    reduced-motion support · no-WebGL fallbacks                  │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React%20Three%20Fiber-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=111827)
+![Lenis](https://img.shields.io/badge/Lenis-smooth%20scroll-111827?style=for-the-badge)
+![Canvas](https://img.shields.io/badge/Canvas%20API-E34F26?style=for-the-badge)
 
-### Backend / data GUI
+### `STYLING & DESIGN SYSTEMS`
 
-```text
-╭─[ SERVICE CONTROL ]─────────────────────────────────────────────────────────╮
-│  runtime      Node.js                                                      │
-│  framework    Express                                                       │
-│  database     MongoDB · Mongoose · Supabase / SQL                          │
-│  realtime     Socket.IO                                                    │
-│  auth         JWT · bcrypt                                                  │
-│  uploads      Multer · Cloudinary                                           │
-│  email        Resend                                                        │
-│  security     Helmet · CORS · rate limiting · input validation              │
-│  interfaces   REST endpoints · webhooks · browser clients                   │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=0F172A)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap Icons](https://img.shields.io/badge/Bootstrap%20Icons-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vanta](https://img.shields.io/badge/Vanta.js-312E81?style=for-the-badge)
+![Zdog](https://img.shields.io/badge/Zdog-111827?style=for-the-badge)
+![Vanilla Tilt](https://img.shields.io/badge/Vanilla%20Tilt-06B6D4?style=for-the-badge)
 
-### Delivery / applications GUI
+</div>
 
-```text
-╭─[ DEPLOYMENT TOPOLOGY ]──────────────────────────────────────────────────────╮
-│                                                                            │
-│  GIT → GITHUB → BUILD → HOST → CUSTOM DOMAIN → LIVE EXPERIENCE            │
-│   │       │        │       │            │                  │               │
-│   │       │        │       ├─ Netlify   ├─ cipherpr.live   └─ users        │
-│   │       │        │       ├─ Vercel    ├─ cipherpr.tech                   │
-│   │       │        │       ├─ Cloudflare└─ portfolio.cipherpr.me            │
-│   │       │        │       └─ Pages                                      │
-│   │       │        └─ npm / static export / server deployment                │
-│   │       └─ branches · commits · history · reviews                         │
-│   └─ local terminal, VS Code and Git workflow                                │
-│                                                                            │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-| Application | Evidence / role |
+### `FRONTEND RENDER PIPELINE`
+
+| Layer | Systems |
 |---|---|
-| Git + GitHub | Source control, branches, commits, deployment history and collaboration |
-| Cloudflare Pages / Wrangler | Static export and Cloudflare-oriented deployment configuration |
-| Vercel | PENOVA and live frontend deployments |
-| Netlify | LASU Connect live deployment |
-| GitHub Pages | Site About Me and static project hosting patterns |
-| Docker | Deployment templates and container-oriented projects |
-| VS Code | Local development and repository workflow |
-
-## `// STACK BY PROJECT`
-
-```text
-╭─[ REPOSITORY STACK MATRIX ]─────────────────────────────────────────────────╮
-│  PROJECT              CORE STACK / SIGNAL                                  │
-├────────────────────────────────────────────────────────────────────────────┤
-│  LASU Connect         HTML · CSS · JS · Bootstrap · Express · MongoDB       │
-│                       Mongoose · Socket.IO · JWT · Cloudinary · Netlify     │
-│                                                                            │
-│  TAG IT ON            Next.js · React · TypeScript · Three.js               │
-│                       React Three Fiber · Drei · WebGL · Lenis · Canvas      │
-│                                                                            │
-│  Jochebed's Touch     HTML · CSS · JavaScript · custom WebGL · shaders      │
-│                       Canvas · smooth scroll · pinned scroll stories        │
-│                                                                            │
-│  PENOVA               Next.js · React · TypeScript · Tailwind CSS            │
-│                       depth planes · parallax · canvas tile transitions      │
-│                                                                            │
-│  Site About Me        HTML · CSS · JavaScript · GSAP · ScrollTrigger        │
-│                       Vanta · Three.js · Vanilla Tilt · GitHub Pages         │
-│                                                                            │
-│  Cipher PR Tech       HTML · CSS · JavaScript · Three.js · Vanta             │
-│                       Zdog · Vanilla Tilt · GSAP · ScrollTrigger · Lucide    │
-│                                                                            │
-│  CipherStream         JavaScript backend/frontend surfaces · Dart mobile     │
-│                       Flutter · APIs · product ecosystem                    │
-│                                                                            │
-│  Cipher::Audit        HTML · browser APIs · LocalStorage · Claude API        │
-│                       Schema.org · JSON-LD · Search Console CSV              │
-│                                                                            │
-│  African Garden       HTML · CSS · vanilla JS · Bootstrap Icons              │
-│  Lodge                Google Fonts · Formspree · GitHub Pages                │
-│                                                                            │
-│  Old English          HTML · Tailwind CDN · CSS animation · responsive UI    │
-│                                                                            │
-│  Offline Payment      Node.js · npm · service worker · offline-first flows   │
-│                       signed receipts · Cloudflare Tunnel deployment        │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
-
-## `// IMMERSIVE WEB TELEMETRY`
-
-```text
-╭─[ DEPTH ENGINE ]─────────────────────────────────────────────────────────────╮
-│  3D runtime       Three.js · React Three Fiber · Drei                       │
-│  raw rendering    WebGL contexts · vertex/fragment shader programs           │
-│  visual depth     far/mid/near layers · perspective floors · parallax        │
-│  scene motion     scroll-linked cameras · pointer response · inertia          │
-│  motion systems   GSAP · ScrollTrigger · Lenis · CSS transitions             │
-│  tactile input    drag · throw · collisions · hover · quiz-driven navigation │
-│  fallback layer   reduced motion · no-WebGL CSS fallback · responsive mode   │
-│  output           product sites · portfolio surfaces · brand experiences     │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
-
-### TAG IT ON — 3D product experience
-
-<a href="https://tagiton.cipherpr.live"><img src="https://image.thum.io/get/width/1200/crop/800/https://tagiton.cipherpr.live" width="100%" alt="TAG IT ON live preview" /></a>
-
-A scroll-driven product experience with a 3D bottle scene, generated label textures, depth layers and tactile interactions.
-
-```text
-runtime       Next.js · React Three Fiber · Three.js
-scene         bottle meshes · physical materials · canvas textures
-motion        Lenis · scroll-linked scene movement · spin transitions
-interaction   pointer response · drag / throw · edge collisions
-composition   particles · halo · far/mid/near depth marquee
-latest signal “Text above 3D scene, edge collisions, falling themed shapes,
-              spin transitions, depth marquee” — 15 October 2026
-```
-
-[Live](https://tagiton.cipherpr.live) · [Source](https://github.com/lord-saviord1/tag-it-on) · [History](https://github.com/lord-saviord1/tag-it-on/commits/main)
-
-### JOCHEBED'S TOUCH — custom WebGL atmosphere
-
-<a href="https://jochebedstouch.cipherpr.live"><img src="https://image.thum.io/get/width/1200/crop/800/https://jochebedstouch.cipherpr.live" width="100%" alt="Jochebed's Touch live preview" /></a>
-
-A visual experience built around a custom WebGL driver, shader programs, pointer-reactive state, smooth scroll and motion-aware fallbacks.
-
-```text
-runtime       custom WebGL canvas driver
-rendering     shader programs · generated geometry · uniforms
-motion        smooth scroll · pinned stories · page transitions
-interaction   pointer coordinates · scroll velocity · scene state
-fallback      no-WebGL CSS mode · prefers-reduced-motion mode
-```
-
-[Live](https://jochebedstouch.cipherpr.live) · [Source](https://github.com/lord-saviord1/jochebed) · [History](https://github.com/lord-saviord1/jochebed/commits/main)
-
-### PENOVA — depth-led platform surface
-
-<a href="https://penova-eight.vercel.app"><img src="https://image.thum.io/get/width/1200/crop/800/https://penova-eight.vercel.app" width="100%" alt="PENOVA live preview" /></a>
-
-A service-oriented platform about people, potential, support, opportunity and impact, using depth planes, pointer parallax and tile-based route transitions.
-
-`Next.js` `React` `TypeScript` `Tailwind CSS` `Canvas` `Parallax` `Vercel`
-
-[Live](https://penova-eight.vercel.app) · [Source](https://github.com/lord-saviord1/Penova)
-
-## `// FEATURED BUILDS`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🟢 LASU Connect
-The main active full-stack platform.
-
-`Express` `MongoDB` `Socket.IO` `JWT` `Bootstrap` `Netlify`
-
-[Live](https://lasu-connect.netlify.app/) · [Source](https://github.com/lord-saviord1/lasu-connect)
+| Markup | HTML5 · semantic UI · JSON-LD |
+| Components | React · Next.js · React Three Fiber · Drei |
+| 3D | Three.js · WebGL · Canvas textures |
+| Motion | GSAP · ScrollTrigger · Lenis · CSS keyframes |
+| Depth | parallax · perspective · far/mid/near layers |
+| Input | pointer tracking · drag · throw · collision |
+| Resilience | reduced motion · no-WebGL fallback |
 
 </td>
 <td width="50%" valign="top">
 
-### 🟣 CipherStream Flutter
-Mobile surface built with Flutter and Dart as part of the CipherStream product ecosystem.
+### `BACKEND & DATA CONTROL`
 
-`Flutter` `Dart` `Mobile` `Product UI`
-
-[Source](https://github.com/lord-saviord1/cipherstream-flutter)
+| Layer | Systems |
+|---|---|
+| Runtime | Node.js |
+| Framework | Express |
+| Realtime | Socket.IO |
+| Databases | MongoDB · Mongoose · Supabase / SQL |
+| Auth | JWT · bcrypt · validation |
+| Media | Multer · Cloudinary |
+| Messaging | Resend · email workflows |
+| Protection | Helmet · CORS · rate limiting |
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🔵 Site About Me
-Portfolio system with GSAP, ScrollTrigger and a depth-oriented Vanta/Three.js hero layer.
+### `MOBILE & PRODUCT SURFACES`
 
-`HTML` `GSAP` `ScrollTrigger` `Three.js` `Vanta`
-
-[Live](https://portfolio.cipherpr.me) · [Source](https://github.com/lord-saviord1/siteaboutme)
-
-</td>
-<td width="50%" valign="top">
-
-### 🟠 Cipher PR Tech
-Technical brand surface with 3D pieces, interactive visual chrome and motion experiments.
-
-`Three.js` `GSAP` `Vanta` `Zdog` `Vanilla Tilt`
-
-[Live](https://cipherpr.tech) · [Source](https://github.com/lord-saviord1/cipherpr-tech)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🟡 Cipher::Audit
-Browser-first SEO, schema and search visibility console.
-
-`HTML` `JSON-LD` `Schema.org` `Claude API` `LocalStorage`
-
-[Source](https://github.com/lord-saviord1/cipher-audit)
+| Signal | Evidence |
+|---|---|
+| Flutter | CipherStream mobile surface |
+| Dart | `cipherstream-flutter` repository |
+| Product UI | CipherStream ecosystem |
+| APIs | Browser, backend and mobile integration |
+| QA | Manual testing and production-minded checks |
 
 </td>
 <td width="50%" valign="top">
 
-### ⚫ Offline Payment Proof
-Offline-first payment and signed receipt experiment with deployment documentation.
+### `AI, SEO & KNOWLEDGE TOOLS`
 
-`Node.js` `npm` `Service Worker` `Cloudflare Tunnel`
-
-[Source](https://github.com/lord-saviord1/offline-payment-proof)
+| Signal | Evidence |
+|---|---|
+| AI | Anthropic Claude API integration |
+| SEO | Schema.org · JSON-LD · Google Search Console CSV |
+| Browser storage | LocalStorage artifact workflows |
+| Research | Google Fonts · structured metadata · diagnostics |
+| Workspace | VS Code · npm · Git |
 
 </td>
 </tr>
 </table>
 
-## `// GIT WORKFLOW / CIPHER TERMINAL`
+## `// DEPLOYMENT CONTROL GUI`
 
-```text
-╭─[ CIPHER WORKFLOW GRAPH ]────────────────────────────────────────────────────╮
-│                                                                            │
-│  VS CODE / TERMINAL → git diff → git add → git commit → git push           │
-│          │                 │          │            │         │              │
-│          └────── npm run dev / test / lint ────────────────┘              │
-│                                                                            │
-│  GITHUB HISTORY → deployment build → custom domain → observe → iterate     │
-│                                                                            │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+<table width="100%">
+<tr>
+<td width="25%" align="center"><h3>GIT</h3><sub>local history<br/>branches · commits<br/>push · review</sub></td>
+<td width="25%" align="center"><h3>BUILD</h3><sub>npm scripts<br/>static export<br/>server deployment</sub></td>
+<td width="25%" align="center"><h3>HOST</h3><sub>Cloudflare Pages<br/>Vercel · Netlify<br/>GitHub Pages</sub></td>
+<td width="25%" align="center"><h3>DOMAIN</h3><sub>custom surfaces<br/>Cipher PR network<br/>live experiences</sub></td>
+</tr>
+</table>
 
-```console
-╭─[ CIPHER SHELL / ACTIVE BUILD ]─────────────────────────────────────────────╮
-│  ~/workspace/cipher-pr                              ● main ● connected      │
-├────────────────────────────────────────────────────────────────────────────┤
-│  $ git status                                                              │
-│  On branch main                                                            │
-│  working tree synchronized with the build pipeline                         │
-│                                                                            │
-│  $ git log --oneline --decorate -6                                         │
-│  1710b7e  Add immersive web telemetry and live project previews             │
-│  129efcb  Overhaul profile README with LASU Connect telemetry              │
-│  e5836ea  Build Cipher PR profile README showcase                           │
-│  da6e9c4  TAG: depth marquee and falling themed shapes                      │
-│  3b17fb8  Cipher PR Tech: refactor 3D pieces and color handling              │
-│  f866a6a  Jochebed: merge WebGL experience updates                           │
-│                                                                            │
-│  $ git push origin main                                                    │
-│  enumerating objects · writing objects · remote updated                    │
-│                                                                            │
-│  $ _                                                                        │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+<table width="100%">
+<tr><th>Application</th><th>Role in the build system</th><th>Connected surface</th></tr>
+<tr><td><b>Git + GitHub</b></td><td>Source control, commits, branches, history and collaboration</td><td><a href="https://github.com/lord-saviord1">Profile</a></td></tr>
+<tr><td><b>Cloudflare / Wrangler</b></td><td>Static export, Pages-oriented delivery and domain infrastructure</td><td><a href="https://cipherpr.tech">cipherpr.tech</a></td></tr>
+<tr><td><b>Vercel</b></td><td>Frontend and platform deployment</td><td><a href="https://penova-eight.vercel.app">PENOVA</a></td></tr>
+<tr><td><b>Netlify</b></td><td>Live application hosting</td><td><a href="https://lasu-connect.netlify.app/">LASU Connect</a></td></tr>
+<tr><td><b>GitHub Pages</b></td><td>Static portfolio and website hosting</td><td><a href="https://portfolio.cipherpr.me">Portfolio</a></td></tr>
+<tr><td><b>Docker</b></td><td>Container-oriented deployment templates and services</td><td>Infrastructure projects</td></tr>
+</table>
 
-GitHub can show pushed commits, branches, pull requests and contribution activity. It cannot read private local shell history. Terminal work becomes public telemetry when it is committed and pushed with an email connected to this account.
+## `// PROJECT STACK CARDS`
 
-## `// STACK EVOLUTION`
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-```text
-╭─[ ENGINEERING TIMELINE ]─────────────────────────────────────────────────────╮
-│  STATIC WEB       HTML · CSS · vanilla JavaScript · Bootstrap                │
-│       ↓                                                                    │
-│  PRODUCT UI       responsive systems · forms · SEO · animations             │
-│       ↓                                                                    │
-│  FULL STACK       Node · Express · MongoDB · Mongoose · Socket.IO            │
-│       ↓                                                                    │
-│  MOBILE           Flutter · Dart · CipherStream                             │
-│       ↓                                                                    │
-│  IMMERSIVE WEB    Three.js · WebGL · shaders · R3F · Canvas · Lenis          │
-│       ↓                                                                    │
-│  MOTION SYSTEMS   GSAP · ScrollTrigger · parallax · page transitions         │
-│       ↓                                                                    │
-│  DELIVERY         GitHub · Cloudflare · Vercel · Netlify · custom domains    │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+### 🟢 LASU CONNECT
+
+**Full-stack campus platform**
+
+`HTML` `CSS` `JavaScript` `Bootstrap` `Express` `MongoDB` `Mongoose` `Socket.IO` `JWT` `Netlify`
+
+<a href="https://lasu-connect.netlify.app/"><img src="https://img.shields.io/badge/LIVE-06B6D4?style=for-the-badge&logo=netlify&logoColor=white" alt="Live LASU Connect" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔵 TAG IT ON
+
+**3D product experience**
+
+`Next.js` `React` `TypeScript` `Three.js` `R3F` `WebGL` `Drei` `Lenis`
+
+<a href="https://tagiton.cipherpr.live"><img src="https://img.shields.io/badge/LIVE-2244FF?style=for-the-badge&logo=webgl&logoColor=white" alt="Live TAG IT ON" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🟣 JOCHEBED'S TOUCH
+
+**Custom WebGL atmosphere**
+
+`HTML` `CSS` `JavaScript` `WebGL` `shaders` `Canvas` `smooth scroll`
+
+<a href="https://jochebedstouch.cipherpr.live"><img src="https://img.shields.io/badge/LIVE-8B5CF6?style=for-the-badge&logo=webgl&logoColor=white" alt="Live Jochebed's Touch" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🟠 PENOVA
+
+**Depth-led service platform**
+
+`Next.js` `React` `TypeScript` `Tailwind CSS` `Canvas` `parallax` `Vercel`
+
+<a href="https://penova-eight.vercel.app"><img src="https://img.shields.io/badge/LIVE-E8A33D?style=for-the-badge&logo=vercel&logoColor=111827" alt="Live PENOVA" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🟡 CIPHERSTREAM FLUTTER
+
+**Mobile product surface**
+
+`Flutter` `Dart` `mobile UI` `product ecosystem`
+
+<a href="https://github.com/lord-saviord1/cipherstream-flutter"><img src="https://img.shields.io/badge/SOURCE-0175C2?style=for-the-badge&logo=flutter&logoColor=white" alt="CipherStream Flutter source" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🟤 SITE ABOUT ME
+
+**Portfolio and identity system**
+
+`HTML` `CSS` `JavaScript` `GSAP` `ScrollTrigger` `Three.js` `Vanta` `GitHub Pages`
+
+<a href="https://portfolio.cipherpr.me"><img src="https://img.shields.io/badge/PORTFOLIO-8B5CF6?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🟩 CIPHER PR TECH
+
+**Technical brand surface**
+
+`Three.js` `GSAP` `Vanta` `Zdog` `Vanilla Tilt` `Lucide`
+
+<a href="https://cipherpr.tech"><img src="https://img.shields.io/badge/OPEN%20SITE-F2C94C?style=for-the-badge&logo=googlechrome&logoColor=111827" alt="Cipher PR Tech" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### ⚫ CIPHER::AUDIT
+
+**SEO and search visibility console**
+
+`HTML` `JSON-LD` `Schema.org` `Claude API` `LocalStorage` `Search Console CSV`
+
+<a href="https://github.com/lord-saviord1/cipher-audit"><img src="https://img.shields.io/badge/SOURCE-111827?style=for-the-badge&logo=github&logoColor=white" alt="Cipher Audit source" /></a>
+
+</td>
+</tr>
+</table>
+
+## `// IMMERSIVE WEB PREVIEW WALL`
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://tagiton.cipherpr.live"><img src="https://image.thum.io/get/width/1200/crop/800/https://tagiton.cipherpr.live" width="100%" alt="TAG IT ON preview" /></a>
+
+<h3>TAG IT ON</h3>
+<p>Scroll-driven 3D bottle scene, depth marquee, generated canvas textures, pointer interaction, drag physics and layered motion.</p>
+
+<a href="https://tagiton.cipherpr.live">Open live experience →</a>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://jochebedstouch.cipherpr.live"><img src="https://image.thum.io/get/width/1200/crop/800/https://jochebedstouch.cipherpr.live" width="100%" alt="Jochebed's Touch preview" /></a>
+
+<h3>JOCHEBED'S TOUCH</h3>
+<p>Custom WebGL canvas, shader programs, pointer-reactive state, pinned scroll stories and graceful motion fallbacks.</p>
+
+<a href="https://jochebedstouch.cipherpr.live">Open live experience →</a>
+
+</td>
+</tr>
+</table>
+
+## `// CIPHER PR DOMAIN GUI`
+
+<table width="100%">
+<tr><th>Surface</th><th>Role</th><th>Open</th></tr>
+<tr><td>Portfolio</td><td>Identity, projects and public work</td><td><a href="https://portfolio.cipherpr.me">portfolio.cipherpr.me</a></td></tr>
+<tr><td>Cipher PR</td><td>Brand, studio and public presence</td><td><a href="https://cipherpr.me">cipherpr.me</a></td></tr>
+<tr><td>Technology</td><td>Engineering, products and technical writing</td><td><a href="https://cipherpr.tech">cipherpr.tech</a></td></tr>
+<tr><td>Live</td><td>Deployed digital experiences</td><td><a href="https://cipherpr.live">cipherpr.live</a></td></tr>
+<tr><td>TAG</td><td>3D product experience</td><td><a href="https://tagiton.cipherpr.live">tagiton.cipherpr.live</a></td></tr>
+<tr><td>Jochebed</td><td>Custom WebGL atmosphere</td><td><a href="https://jochebedstouch.cipherpr.live">jochebedstouch.cipherpr.live</a></td></tr>
+<tr><td>Full Midnight Shutdown</td><td>Visual web experience</td><td><a href="https://fullmidnightshutdown.cipherpr.live">fullmidnightshutdown.cipherpr.live</a></td></tr>
+</table>
+
+## `// GIT WORKFLOW`
+
+<table width="100%">
+<tr>
+<td width="20%" align="center"><b>01</b><br/>OPEN<br/><sub>VS Code<br/>terminal</sub></td>
+<td width="20%" align="center"><b>02</b><br/>BUILD<br/><sub>npm dev<br/>test · lint</sub></td>
+<td width="20%" align="center"><b>03</b><br/>CHECKPOINT<br/><sub>git diff<br/>git add</sub></td>
+<td width="20%" align="center"><b>04</b><br/>SHIP<br/><sub>git commit<br/>git push</sub></td>
+<td width="20%" align="center"><b>05</b><br/>OBSERVE<br/><sub>deploy<br/>iterate</sub></td>
+</tr>
+</table>
+
+<div align="center">
+
+`LOCAL WORKSPACE` **→** `GIT HISTORY` **→** `GITHUB` **→** `CLOUDFLARE / VERCEL / NETLIFY` **→** `LIVE DOMAIN`
+
+</div>
+
+## `// STACK EVOLUTION GUI`
+
+<table width="100%">
+<tr><td width="18%" align="center"><b>STATIC WEB</b></td><td>HTML · CSS · vanilla JavaScript · Bootstrap · Bootstrap Icons</td></tr>
+<tr><td align="center"><b>PRODUCT UI</b></td><td>Responsive systems · forms · SEO · structured metadata · animation</td></tr>
+<tr><td align="center"><b>FULL STACK</b></td><td>Node.js · Express · MongoDB · Mongoose · Socket.IO · JWT</td></tr>
+<tr><td align="center"><b>MOBILE</b></td><td>Flutter · Dart · CipherStream product surface</td></tr>
+<tr><td align="center"><b>IMMERSIVE WEB</b></td><td>Three.js · WebGL · shaders · React Three Fiber · Canvas · Lenis</td></tr>
+<tr><td align="center"><b>MOTION SYSTEMS</b></td><td>GSAP · ScrollTrigger · parallax · page transitions · depth choreography</td></tr>
+<tr><td align="center"><b>DELIVERY</b></td><td>Git · GitHub · Cloudflare · Vercel · Netlify · GitHub Pages</td></tr>
+</table>
 
 ## `// GITHUB TELEMETRY`
 
@@ -427,45 +389,26 @@ GitHub can show pushed commits, branches, pull requests and contribution activit
 
 </div>
 
-## `// CIPHER PR DIGITAL SURFACES`
-
-```text
-╭─[ DOMAIN ROUTER ]────────────────────────────────────────────────────────────╮
-│  portfolio.cipherpr.me  → portfolio · identity · project story              │
-│  cipherpr.me            → brand · studio · public presence                  │
-│  cipherpr.tech          → engineering · products · technical writing        │
-│  cipherpr.live          → deployed digital experiences                      │
-│  tagiton.cipherpr.live  → 3D product experience                             │
-│  jochebedstouch...      → custom WebGL atmosphere                            │
-│  fullmidnightshutdown…  → visual web experience                              │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
-
-[Portfolio](https://portfolio.cipherpr.me) · [Cipher PR](https://cipherpr.me) · [Tech](https://cipherpr.tech) · [Live](https://cipherpr.live) · [TAG](https://tagiton.cipherpr.live) · [Jochebed](https://jochebedstouch.cipherpr.live) · [FMS](https://fullmidnightshutdown.cipherpr.live)
-
-## `// ACHIEVEMENTS`
+## `// ACHIEVEMENT PANEL`
 
 <div align="center">
 
 <a href="https://github.com/lord-saviord1?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="88" alt="YOLO achievement" /></a>
 
-**YOLO** — shipping boldly, learning in public and building through iteration.
+### **YOLO**
+
+Shipping boldly, learning in public and building through iteration.
 
 </div>
 
-## `// BUILD PRINCIPLES`
+## `// BUILD PRINCIPLES GUI`
 
-```text
-01. Make the idea tangible.
-02. Give the interface a point of view.
-03. Build the smallest useful system.
-04. Let technology serve the experience.
-05. Treat depth and motion as communication, not decoration.
-06. Keep the architecture understandable.
-07. Ship, observe, refine.
-```
+<table width="100%">
+<tr><td align="center"><b>01</b><br/>Make the idea tangible.</td><td align="center"><b>02</b><br/>Give the interface a point of view.</td><td align="center"><b>03</b><br/>Build the smallest useful system.</td></tr>
+<tr><td align="center"><b>04</b><br/>Let technology serve the experience.</td><td align="center"><b>05</b><br/>Treat depth as communication.</td><td align="center"><b>06</b><br/>Ship, observe, refine.</td></tr>
+</table>
 
-## `// CONNECT`
+## `// CONNECT GUI`
 
 <div align="center">
 
