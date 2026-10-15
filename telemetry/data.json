@@ -2,7 +2,7 @@
   "data_source": "GitHub REST API v3",
   "generated_by": "telemetry/generate-telemetry.js",
   "source_profile_repository": "lord-saviord1/lord-saviord1",
-  "last_updated": "2026-10-15T12:50:10.505Z",
+  "last_updated": "2026-10-15T12:55:03.316Z",
   "recent_commit_window_days": 30,
   "project_count": 15,
   "successful_project_count": 15,
@@ -48,13 +48,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://lasu-connect-theta.vercel.app",
       "deployment_url": "https://lasu-connect.netlify.app/",
-      "provider": "Netlify",
-      "last_updated": "2026-10-15T12:26:42.433Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "lasu-connect.netlify.app",
+      "provider": "Netlify",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:54.621Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/tag-it-on",
@@ -90,13 +88,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": "https://tagiton.cipherpr.live",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:42.951Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "tagiton.cipherpr.live",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:55.067Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/jochebed",
@@ -132,13 +128,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": "https://jochebedstouch.cipherpr.live",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:43.510Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "jochebedstouch.cipherpr.live",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:55.577Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/Penova",
@@ -174,13 +168,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://penova-eight.vercel.app",
       "deployment_url": "https://penova-eight.vercel.app",
-      "provider": "Vercel",
-      "last_updated": "2026-10-15T12:26:44.087Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "penova-eight.vercel.app",
+      "provider": "Vercel",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:57.045Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/siteaboutme",
@@ -212,13 +204,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "portfolio.cipherpr.me",
       "deployment_url": "https://portfolio.cipherpr.me",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:44.571Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "portfolio.cipherpr.me",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:57.533Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherpr-tech",
@@ -254,13 +244,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": "https://cipherpr.tech",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:45.093Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "cipherpr.tech",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:57.998Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherpr-live",
@@ -292,13 +280,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": "https://cipherpr.live",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:45.522Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "cipherpr.live",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:59.434Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherpr-me",
@@ -330,13 +316,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": "https://cipherpr.me",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:45.989Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "cipherpr.me",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:54:59.868Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/fullmidnightshutdown",
@@ -370,13 +354,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://fullmidnightshutdown.vercel.app",
       "deployment_url": "https://fullmidnightshutdown.cipherpr.live",
-      "provider": "Cloudflare",
-      "last_updated": "2026-10-15T12:26:47.541Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": "fullmidnightshutdown.cipherpr.live",
+      "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:55:00.289Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherstream-flutter",
@@ -408,13 +390,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": null,
-      "provider": "—",
-      "last_updated": "2026-10-15T12:26:48.008Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": null,
+      "provider": "—",
       "provider_provenance": "unknown",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:55:00.770Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherstream-frontend",
@@ -450,13 +430,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://cipherstream-frontend.vercel.app",
       "deployment_url": "https://cipherstream-frontend.vercel.app",
-      "provider": "—",
-      "last_updated": "2026-10-15T12:26:48.470Z",
-      "data_source": "GitHub REST API v3",
-      "deployment_hostname": null,
-      "provider_provenance": "unknown",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "deployment_hostname": "cipherstream-frontend.vercel.app",
+      "provider": "Vercel",
+      "provider_provenance": "inferred_from_deployment_url",
+      "last_updated": "2026-10-15T12:55:01.395Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherstream-backend",
@@ -488,13 +466,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://cipherstream-backend.vercel.app",
       "deployment_url": "https://cipherstream-backend.vercel.app",
-      "provider": "—",
-      "last_updated": "2026-10-15T12:26:49.983Z",
-      "data_source": "GitHub REST API v3",
-      "deployment_hostname": null,
-      "provider_provenance": "unknown",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "deployment_hostname": "cipherstream-backend.vercel.app",
+      "provider": "Vercel",
+      "provider_provenance": "inferred_from_deployment_url",
+      "last_updated": "2026-10-15T12:55:01.863Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipherstream-admin",
@@ -528,13 +504,11 @@
       "recent_commit_count_bounded": false,
       "homepage": "https://cipherstream-admin.vercel.app",
       "deployment_url": "https://cipherstream-admin.vercel.app",
-      "provider": "—",
-      "last_updated": "2026-10-15T12:26:50.566Z",
-      "data_source": "GitHub REST API v3",
-      "deployment_hostname": null,
-      "provider_provenance": "unknown",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "deployment_hostname": "cipherstream-admin.vercel.app",
+      "provider": "Vercel",
+      "provider_provenance": "inferred_from_deployment_url",
+      "last_updated": "2026-10-15T12:55:02.361Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/cipher-audit",
@@ -566,13 +540,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": null,
-      "provider": "—",
-      "last_updated": "2026-10-15T12:26:51.082Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": null,
+      "provider": "—",
       "provider_provenance": "unknown",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:55:02.799Z",
+      "data_source": "GitHub REST API v3"
     },
     {
       "repo": "lord-saviord1/offline-payment-proof",
@@ -608,13 +580,11 @@
       "recent_commit_count_bounded": false,
       "homepage": null,
       "deployment_url": null,
-      "provider": "—",
-      "last_updated": "2026-10-15T12:26:51.642Z",
-      "data_source": "GitHub REST API v3",
       "deployment_hostname": null,
+      "provider": "—",
       "provider_provenance": "unknown",
-      "cache_fallback": true,
-      "cache_fallback_reason": "request_failed_403"
+      "last_updated": "2026-10-15T12:55:03.308Z",
+      "data_source": "GitHub REST API v3"
     }
   ],
   "language_telemetry": [
@@ -1054,18 +1024,11 @@
       "evidence_source": "unknown",
       "repositories": [
         "lord-saviord1/cipher-audit",
-        "lord-saviord1/cipherstream-admin",
-        "lord-saviord1/cipherstream-backend",
         "lord-saviord1/cipherstream-flutter",
-        "lord-saviord1/cipherstream-frontend",
         "lord-saviord1/offline-payment-proof"
       ],
       "domains": [],
-      "live_urls": [
-        "https://cipherstream-admin.vercel.app",
-        "https://cipherstream-backend.vercel.app",
-        "https://cipherstream-frontend.vercel.app"
-      ]
+      "live_urls": []
     },
     {
       "provider": "Cloudflare",
@@ -1121,12 +1084,21 @@
       "provenance": "inferred_from_deployment_url",
       "evidence_source": "deployment_url",
       "repositories": [
+        "lord-saviord1/cipherstream-admin",
+        "lord-saviord1/cipherstream-backend",
+        "lord-saviord1/cipherstream-frontend",
         "lord-saviord1/Penova"
       ],
       "domains": [
+        "cipherstream-admin.vercel.app",
+        "cipherstream-backend.vercel.app",
+        "cipherstream-frontend.vercel.app",
         "penova-eight.vercel.app"
       ],
       "live_urls": [
+        "https://cipherstream-admin.vercel.app",
+        "https://cipherstream-backend.vercel.app",
+        "https://cipherstream-frontend.vercel.app",
         "https://penova-eight.vercel.app"
       ]
     }
