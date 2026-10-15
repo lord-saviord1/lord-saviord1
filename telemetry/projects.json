@@ -1,0 +1,82 @@
+{
+  "data_source": "GitHub REST API v3",
+  "recent_commit_window_days": 30,
+  "excluded_repositories": [
+    "lord-saviord1/Knightbot-MD",
+    "lord-saviord1/Megatron-Bot",
+    "lord-saviord1/BLACK-PANTHER-XMD",
+    "lord-saviord1/Suhail-Md",
+    "lord-saviord1/raganork-md"
+  ],
+  "projects": [
+    {
+      "repo": "lord-saviord1/lasu-connect",
+      "deployment_url": "https://lasu-connect.netlify.app/",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/tag-it-on",
+      "deployment_url": "https://tagiton.cipherpr.live",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/jochebed",
+      "deployment_url": "https://jochebedstouch.cipherpr.live",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/Penova",
+      "deployment_url": "https://penova-eight.vercel.app",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/siteaboutme",
+      "deployment_url": "https://portfolio.cipherpr.me",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherpr-tech",
+      "deployment_url": "https://cipherpr.tech",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherpr-live",
+      "deployment_url": "https://cipherpr.live",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherpr-me",
+      "deployment_url": "https://cipherpr.me",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/fullmidnightshutdown",
+      "deployment_url": "https://fullmidnightshutdown.cipherpr.live",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherstream-flutter",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherstream-frontend",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherstream-backend",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipherstream-admin",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/cipher-audit",
+      "featured": true
+    },
+    {
+      "repo": "lord-saviord1/offline-payment-proof",
+      "featured": true
+    }
+  ]
+}
