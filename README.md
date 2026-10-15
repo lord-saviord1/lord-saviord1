@@ -383,33 +383,37 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 | Overview | Value |
 |---|---|
-| Status | ⚠️ partial (some repositories unavailable) |
-| Last updated (UTC) | `2026-10-15T12:24:24.280Z` |
+| Status | ✅ healthy |
+| Last updated (UTC) | `2026-10-15T12:26:51.643Z` |
 | Data source | GitHub REST API v3 |
-| Projects scanned | `0/15` |
+| Projects scanned | `15/15` |
 | Commit window | `30 days` (bounded per repo: `100 commits`) |
 
 | Project | Stack / languages | Last update | Latest commit | Deployment | Provider |
 |---|---|---|---|---|---|
-| lord-saviord1/lasu-connect | Unavailable (request_failed_403) | — | — | [https://lasu-connect.netlify.app/](https://lasu-connect.netlify.app/) | Netlify |
-| lord-saviord1/tag-it-on | Unavailable (request_failed_403) | — | — | [https://tagiton.cipherpr.live](https://tagiton.cipherpr.live) | Cloudflare |
-| lord-saviord1/jochebed | Unavailable (request_failed_403) | — | — | [https://jochebedstouch.cipherpr.live](https://jochebedstouch.cipherpr.live) | Cloudflare |
-| lord-saviord1/Penova | Unavailable (request_failed_403) | — | — | [https://penova-eight.vercel.app](https://penova-eight.vercel.app) | Vercel |
-| lord-saviord1/siteaboutme | Unavailable (request_failed_403) | — | — | [https://portfolio.cipherpr.me](https://portfolio.cipherpr.me) | Cloudflare |
-| lord-saviord1/cipherpr-tech | Unavailable (request_failed_403) | — | — | [https://cipherpr.tech](https://cipherpr.tech) | Cloudflare |
-| lord-saviord1/cipherpr-live | Unavailable (request_failed_403) | — | — | [https://cipherpr.live](https://cipherpr.live) | Cloudflare |
-| lord-saviord1/cipherpr-me | Unavailable (request_failed_403) | — | — | [https://cipherpr.me](https://cipherpr.me) | Cloudflare |
-| lord-saviord1/fullmidnightshutdown | Unavailable (request_failed_403) | — | — | [https://fullmidnightshutdown.cipherpr.live](https://fullmidnightshutdown.cipherpr.live) | Cloudflare |
-| lord-saviord1/cipherstream-flutter | Unavailable (request_failed_403) | — | — | — | — |
-| lord-saviord1/cipherstream-frontend | Unavailable (request_failed_403) | — | — | — | — |
-| lord-saviord1/cipherstream-backend | Unavailable (request_failed_403) | — | — | — | — |
-| lord-saviord1/cipherstream-admin | Unavailable (request_failed_403) | — | — | — | — |
-| lord-saviord1/cipher-audit | Unavailable (request_failed_403) | — | — | — | — |
-| lord-saviord1/offline-payment-proof | Unavailable (request_failed_403) | — | — | — | — |
+| [lord-saviord1/lasu-connect](https://github.com/lord-saviord1/lasu-connect) | HTML 51.97% · JavaScript 44.26% · CSS 3.77% | 2026-10-15 | [1d63ab0](https://github.com/lord-saviord1/lasu-connect/commit/1d63ab0658fc20d06773ab6b3932af309e2eea9e) · 2026-10-15 · Cipher · got ridof the multiple group entries sha, bew files are mergeduplicat... | [https://lasu-connect.netlify.app/](https://lasu-connect.netlify.app/) | Netlify |
+| [lord-saviord1/tag-it-on](https://github.com/lord-saviord1/tag-it-on) | TypeScript 75.56% · CSS 24.09% · JavaScript 0.35% | 2026-10-15 | [da6e9c6](https://github.com/lord-saviord1/tag-it-on/commit/da6e9c6f34ba6e96bf24c2d86b277ee7854019f7) · 2026-10-15 · Daniel Savior Ozoemena · Text above 3D scene, edge collisions, falling themed shapes, spin tra... | [https://tagiton.cipherpr.live](https://tagiton.cipherpr.live) | Cloudflare |
+| [lord-saviord1/jochebed](https://github.com/lord-saviord1/jochebed) | JavaScript 39.57% · HTML 36.33% · CSS 24.1% | 2026-10-15 | [f866a6a](https://github.com/lord-saviord1/jochebed/commit/f866a6ace99cf2df7bd151dcb07f09bf6e26c85c) · 2026-10-15 · Cipher PR / Itz.sCipher · Merge pull request #5 from lord-saviord1/lord-saviord1-patch-1 | [https://jochebedstouch.cipherpr.live](https://jochebedstouch.cipherpr.live) | Cloudflare |
+| [lord-saviord1/Penova](https://github.com/lord-saviord1/Penova) | TypeScript 97.5% · CSS 2.17% · JavaScript 0.33% | 2026-10-14 | [74be3d2](https://github.com/lord-saviord1/Penova/commit/74be3d2ddc80e60c81c6e8dc6a7bb5b04086373d) · 2026-10-14 · Daniel Savior Ozoemena · Rename CTASection to ImpactStats and update content | [https://penova-eight.vercel.app](https://penova-eight.vercel.app) | Vercel |
+| [lord-saviord1/siteaboutme](https://github.com/lord-saviord1/siteaboutme) | HTML 100% | 2026-10-13 | [df84d54](https://github.com/lord-saviord1/siteaboutme/commit/df84d5435bf33ca00735aeb33174bf786ebfabb0) · 2026-10-13 · Daniel Savior Ozoemena · Refactor z-index and improve 3D layer comments | [https://portfolio.cipherpr.me](https://portfolio.cipherpr.me) | Cloudflare |
+| [lord-saviord1/cipherpr-tech](https://github.com/lord-saviord1/cipherpr-tech) | JavaScript 37.34% · HTML 34.08% · CSS 28.58% | 2026-10-12 | [e4ec99a](https://github.com/lord-saviord1/cipherpr-tech/commit/e4ec99abffa1d8dbef076ee602c76ec4b8928e9e) · 2026-10-12 · Daniel Savior Ozoemena · Fix missing newline at end of blog.html | [https://cipherpr.tech](https://cipherpr.tech) | Cloudflare |
+| [lord-saviord1/cipherpr-live](https://github.com/lord-saviord1/cipherpr-live) | HTML 100% | 2026-10-12 | [3212da8](https://github.com/lord-saviord1/cipherpr-live/commit/3212da8fae2ca26d61bf55ed74c986601a050b7b) · 2026-10-12 · Daniel Savior Ozoemena · Update index.html with new styles and scripts | [https://cipherpr.live](https://cipherpr.live) | Cloudflare |
+| [lord-saviord1/cipherpr-me](https://github.com/lord-saviord1/cipherpr-me) | HTML 100% | 2026-10-12 | [f9cb99e](https://github.com/lord-saviord1/cipherpr-me/commit/f9cb99eec30236fb942a0bf615a81e75963823ff) · 2026-10-12 · Daniel Savior Ozoemena · Update index.html with facet features and styles | [https://cipherpr.me](https://cipherpr.me) | Cloudflare |
+| [lord-saviord1/fullmidnightshutdown](https://github.com/lord-saviord1/fullmidnightshutdown) | HTML 92.1% · JavaScript 7.9% | 2026-09-05 | [bfc3898](https://github.com/lord-saviord1/fullmidnightshutdown/commit/bfc3898cdf6e242ff9dcb7db3c8bf08f54315922) · 2026-09-05 · Daniel Savior Ozoemena · Add initial sitemap.xml file | [https://fullmidnightshutdown.cipherpr.live](https://fullmidnightshutdown.cipherpr.live) | Cloudflare |
+| [lord-saviord1/cipherstream-flutter](https://github.com/lord-saviord1/cipherstream-flutter) | Dart 100% | 2026-08-10 | [dd26a63](https://github.com/lord-saviord1/cipherstream-flutter/commit/dd26a63588cf15e75d9822744c474dda49888f6b) · 2026-08-10 · Cipher · Initial commit | — | — |
+| [lord-saviord1/cipherstream-frontend](https://github.com/lord-saviord1/cipherstream-frontend) | JavaScript 44.4% · CSS 39.74% · HTML 15.86% | 2026-08-19 | [8a00843](https://github.com/lord-saviord1/cipherstream-frontend/commit/8a00843c2101a9d780f55e3473f19be836bb54a9) · 2026-08-19 · Daniel Savior Ozoemena · Add files via upload | [https://cipherstream-frontend.vercel.app](https://cipherstream-frontend.vercel.app) | Vercel |
+| [lord-saviord1/cipherstream-backend](https://github.com/lord-saviord1/cipherstream-backend) | JavaScript 100% | 2026-08-19 | [b1b1106](https://github.com/lord-saviord1/cipherstream-backend/commit/b1b1106ef427422eee9ba70dbf064344b137e333) · 2026-08-19 · Daniel Savior Ozoemena · Add files via upload | [https://cipherstream-backend.vercel.app](https://cipherstream-backend.vercel.app) | Vercel |
+| [lord-saviord1/cipherstream-admin](https://github.com/lord-saviord1/cipherstream-admin) | JavaScript 54.18% · HTML 45.82% | 2026-08-19 | [646c712](https://github.com/lord-saviord1/cipherstream-admin/commit/646c7128d1cef321149efe7dbc0d1ff874d28655) · 2026-08-19 · Daniel Savior Ozoemena · Add files via upload | [https://cipherstream-admin.vercel.app](https://cipherstream-admin.vercel.app) | Vercel |
+| [lord-saviord1/cipher-audit](https://github.com/lord-saviord1/cipher-audit) | HTML 100% | 2026-08-09 | [c757bd4](https://github.com/lord-saviord1/cipher-audit/commit/c757bd45ad94a9b213aaae1d00858b8fe9935fbb) · 2026-08-09 · Daniel Savior Ozoemena · Fix missing newline at end of index.html | — | — |
+| [lord-saviord1/offline-payment-proof](https://github.com/lord-saviord1/offline-payment-proof) | JavaScript 96.43% · HTML 2.31% · CSS 1.26% | 2026-10-13 | [8140d7c](https://github.com/lord-saviord1/offline-payment-proof/commit/8140d7cc8a4badc7ea4c63bf9e643c3be09df912) · 2026-10-13 · Daniel Savior Ozoemena · Add deployment instructions for Zenith Offline Proof | — | — |
 
 | Language | Bytes | Percentage |
 |---|---:|---:|
-| Unavailable | 0 | 0% |
+| JavaScript | 604,544 | 42.44% |
+| HTML | 559,558 | 39.28% |
+| TypeScript | 156,741 | 11% |
+| CSS | 88,202 | 6.19% |
+| Dart | 15,343 | 1.08% |
 
 > JSON artifact: [telemetry/data.json](./telemetry/data.json) · workflow: [.github/workflows/update-telemetry.yml](./.github/workflows/update-telemetry.yml)
 
