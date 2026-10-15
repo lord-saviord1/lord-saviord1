@@ -23,28 +23,18 @@ function inferHostingProvider(url) {
   if (!url) return '—';
   try {
     const hostname = new URL(url).hostname.toLowerCase();
-    if (
-      hostname.endsWith('vercel.app') ||
-      hostname.includes('vercel-dns.com') ||
-      hostname.includes('vercel')
-    ) {
+    const isDomain = (domain) => hostname === domain || hostname.endsWith(`.${domain}`);
+    if (isDomain('vercel.app') || isDomain('vercel-dns.com')) {
       return 'Vercel';
     }
-    if (hostname.endsWith('netlify.app') || hostname.includes('netlify')) {
+    if (isDomain('netlify.app')) {
       return 'Netlify';
     }
-    if (
-      hostname.endsWith('pages.dev') ||
-      hostname.endsWith('workers.dev') ||
-      hostname.includes('cloudflare') ||
-      hostname.endsWith('cipherpr.live') ||
-      hostname.endsWith('cipherpr.tech') ||
-      hostname.endsWith('cipherpr.me')
-    ) {
-      return hostname.endsWith('github.io') ? 'GitHub Pages' : 'Cloudflare';
-    }
-    if (hostname.endsWith('github.io')) {
+    if (isDomain('github.io')) {
       return 'GitHub Pages';
+    }
+    if (isDomain('pages.dev') || isDomain('workers.dev')) {
+      return 'Cloudflare';
     }
     return 'Custom Domain';
   } catch {
@@ -84,7 +74,10 @@ function formatStackSummary(percentages) {
 }
 
 function escapePipes(value) {
-  return String(value).replace(/\|/g, '\\|');
+  return String(value)
+    .replace(/\\/g, '\\\\')
+    .replace(/\|/g, '&#124;')
+    .replace(/\r?\n/g, ' ');
 }
 
 async function apiGet(pathname) {

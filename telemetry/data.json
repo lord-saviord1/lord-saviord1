@@ -2,7 +2,7 @@
   "data_source": "GitHub REST API v3",
   "generated_by": "telemetry/generate-telemetry.js",
   "source_profile_repository": "lord-saviord1/lord-saviord1",
-  "last_updated": "2026-10-15T12:24:24.280Z",
+  "last_updated": "2026-10-15T12:26:16.634Z",
   "recent_commit_window_days": 30,
   "project_count": 15,
   "successful_project_count": 0,
@@ -22,7 +22,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://tagiton.cipherpr.live",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
@@ -31,7 +31,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://jochebedstouch.cipherpr.live",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
@@ -49,7 +49,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://portfolio.cipherpr.me",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
@@ -58,7 +58,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://cipherpr.tech",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
@@ -67,7 +67,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://cipherpr.live",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
@@ -76,7 +76,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://cipherpr.me",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
@@ -85,7 +85,7 @@
       "status": "unavailable",
       "error": "request_failed_403",
       "deployment_url": "https://fullmidnightshutdown.cipherpr.live",
-      "provider": "Cloudflare",
+      "provider": "Custom Domain",
       "last_updated": null,
       "data_source": "GitHub REST API v3"
     },
