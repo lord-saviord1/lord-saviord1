@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340" role="img" aria-label="Diagram of the Cipher PR domain network: cipherpr.me is the hub linking portfolio.cipherpr.me, cipherpr.tech, cipherpr.live, and the upcoming blog.cipherpr.me.">
+<title>Cipher PR domain network</title>
+<style>
+  text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
+  .flow{animation:dash 1.2s linear infinite}
+  @keyframes dash{to{stroke-dashoffset:-24}}
+  .glow{animation:glow 2.4s ease-in-out infinite}
+  @keyframes glow{0%,100%{opacity:.35}50%{opacity:.8}}
+  @media (prefers-reduced-motion:reduce){.flow,.glow{animation:none}}
+</style>
+<rect x=".5" y=".5" width="879" height="339" rx="8" fill="#0d1410" stroke="#1f2e24"/>
+<text x="20" y="328" fill="#6f8a76" style="font-size:11px">$ route --map cipherpr.*   // every site links back to the hub</text>
+<path id="p0" d="M274 61 L345 150" stroke="#5fd38d" stroke-opacity="0.7" stroke-width="1.5" fill="none" stroke-dasharray="6 6" class="flow"/>
+<circle r="3" fill="#f2c94c"><animateMotion dur="3s" repeatCount="indefinite" begin="0s"><mpath href="#p0"/></animateMotion></circle>
+<path id="p1" d="M606 61 L535 150" stroke="#5fd38d" stroke-opacity="0.7" stroke-width="1.5" fill="none" stroke-dasharray="6 6" class="flow"/>
+<circle r="3" fill="#f2c94c"><animateMotion dur="3.6s" repeatCount="indefinite" begin="0.5s"><mpath href="#p1"/></animateMotion></circle>
+<path id="p2" d="M606 279 L535 190" stroke="#5fd38d" stroke-opacity="0.7" stroke-width="1.5" fill="none" stroke-dasharray="6 6" class="flow"/>
+<circle r="3" fill="#f2c94c"><animateMotion dur="4.2s" repeatCount="indefinite" begin="1s"><mpath href="#p2"/></animateMotion></circle>
+<path id="p3" d="M274 279 L345 190" stroke="#6f8a76" stroke-opacity="0.5" stroke-width="1.5" fill="none" stroke-dasharray="6 6" class="flow"/>
+<circle r="3" fill="#6f8a76"><animateMotion dur="4.8s" repeatCount="indefinite" begin="1.5s"><mpath href="#p3"/></animateMotion></circle>
+<rect class="glow" x="339" y="129" width="202" height="82" rx="10" fill="none" stroke="#f2c94c" stroke-opacity=".6"/>
+<rect x="345" y="135" width="190" height="70" rx="6" fill="#101a14" stroke="#f2c94c"/>
+<text x="440" y="165" text-anchor="middle" fill="#f2c94c" style="font-size:16px;font-weight:700">cipherpr.me</text>
+<text x="440" y="187" text-anchor="middle" fill="#6f8a76" style="font-size:11.5px">the hub · itz.sCipher</text>
+
+<g>
+  <rect x="24" y="28" width="250" height="66" rx="6" fill="#101a14" stroke="#1f2e24" />
+  <rect x="24" y="28" width="3" height="66" fill="#5fd38d"/>
+  <text x="40" y="56" fill="#cfe3d3" style="font-size:15px;font-weight:700">portfolio.cipherpr.me</text>
+  <text x="40" y="77" fill="#6f8a76" style="font-size:11.5px">CV, work and credentials</text>
+</g>
+
+<g>
+  <rect x="606" y="28" width="250" height="66" rx="6" fill="#101a14" stroke="#1f2e24" />
+  <rect x="606" y="28" width="3" height="66" fill="#5fd38d"/>
+  <text x="622" y="56" fill="#cfe3d3" style="font-size:15px;font-weight:700">cipherpr.tech</text>
+  <text x="622" y="77" fill="#6f8a76" style="font-size:11.5px">services, case studies, blog</text>
+</g>
+
+<g>
+  <rect x="606" y="246" width="250" height="66" rx="6" fill="#101a14" stroke="#1f2e24" />
+  <rect x="606" y="246" width="3" height="66" fill="#5fd38d"/>
+  <text x="622" y="274" fill="#cfe3d3" style="font-size:15px;font-weight:700">cipherpr.live</text>
+  <text x="622" y="295" fill="#6f8a76" style="font-size:11.5px">live projects, one subdomain each</text>
+</g>
+
+<g>
+  <rect x="24" y="246" width="250" height="66" rx="6" fill="#101a14" stroke="#6f8a76" stroke-dasharray="4 4"/>
+  <rect x="24" y="246" width="3" height="66" fill="#6f8a76"/>
+  <text x="40" y="274" fill="#6f8a76" style="font-size:15px;font-weight:700">blog.cipherpr.me</text>
+  <text x="40" y="295" fill="#6f8a76" style="font-size:11.5px">posts and notes (coming soon)</text>
+</g>
+</svg>
