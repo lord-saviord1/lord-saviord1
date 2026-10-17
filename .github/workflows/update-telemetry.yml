@@ -1,3 +1,4 @@
+---
 name: Update repository telemetry
 
 on:
@@ -9,6 +10,7 @@ on:
       - '.github/workflows/update-telemetry.yml'
       - 'telemetry/projects.json'
       - 'telemetry/generate-telemetry.js'
+      - 'telemetry/generate-svg.js'
       - 'telemetry/README.md'
 
 permissions:
@@ -36,16 +38,20 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node telemetry/generate-telemetry.js
 
+      # NEW: draws assets/telemetry.svg from the data.json written above.
+      - name: Render telemetry graphic
+        run: node telemetry/generate-svg.js
+
       - name: Commit generated telemetry
         if: github.ref_name == github.event.repository.default_branch
         run: |
-          if git diff --quiet README.md telemetry/data.json telemetry/README.generated.md; then
+          if [ -z "$(git status --porcelain README.md telemetry/data.json telemetry/README.generated.md assets/telemetry.svg)" ]; then
             echo "No telemetry changes to commit"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md telemetry/data.json telemetry/README.generated.md
+          git add README.md telemetry/data.json telemetry/README.generated.md assets/telemetry.svg
           git commit -m "chore(telemetry): auto-update generated dashboard [skip ci]"
           git push
