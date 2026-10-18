@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 168" width="880" height="168" role="img" aria-label="Achievement unlocked: YOLO. Shipping boldly, learning in public and building through iteration.">
+<title>Achievement panel — YOLO</title>
+<style>
+  text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:15px}
+  .t{font-size:12px}
+  .ap{animation:ap .25s ease-out both}
+  @keyframes ap{from{opacity:0}to{opacity:1}}
+  .cover{transform-box:fill-box;transform-origin:100% 50%;transform:scaleX(0);animation-name:wipe;animation-fill-mode:both}
+  @keyframes wipe{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+  .cursor{animation:ap .25s ease-out both,blink 1.1s steps(1,end) infinite}
+  @keyframes blink{0%{opacity:1}50%{opacity:0}}
+  .card{animation:ap .4s ease-out both}
+  @media (prefers-reduced-motion:reduce){.cover,.cursor,.ap,.card{animation:none}.cover{transform:scaleX(0)}.cursor{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="879" height="167" rx="8" fill="#0d1410" stroke="#1f2e24"/>
+<path d="M.5 8.5a8 8 0 0 1 8-8h863a8 8 0 0 1 8 8V34H.5z" fill="#0a100c"/>
+<line x1="0" y1="34" x2="880" y2="34" stroke="#1f2e24"/>
+<text class="t" x="16" y="22" fill="#6f8a76">zsh — achievements</text>
+<text class="t" x="864" y="22" fill="#6f8a76" text-anchor="end">github.com/lord-saviord1</text>
+<g><text x="28" y="66" fill="#5fd38d" textLength="234" lengthAdjust="spacingAndGlyphs">lord-saviord1@cipherpr:~$&#160;</text><text x="262" y="66" fill="#cfe3d3" textLength="225" lengthAdjust="spacingAndGlyphs">gh&#160;profile&#160;--achievements</text><rect class="cover" style="animation-delay:0.3s;animation-duration:1.3s;animation-timing-function:steps(51,end)" x="28" y="51" width="461" height="21" fill="#0d1410"/></g>
+<g class="ap" style="animation-delay:1.9s"><text x="28" y="88" fill="#6f8a76" textLength="18" lengthAdjust="spacingAndGlyphs">[&#160;</text><text x="46" y="88" fill="#5fd38d" textLength="9" lengthAdjust="spacingAndGlyphs">✔</text><text x="55" y="88" fill="#6f8a76" textLength="36" lengthAdjust="spacingAndGlyphs">&#160;]&#160;&#160;</text><text x="91" y="88" fill="#f2c94c" style="font-weight:700" textLength="36" lengthAdjust="spacingAndGlyphs">YOLO</text><text x="127" y="88" fill="#6f8a76" textLength="90" lengthAdjust="spacingAndGlyphs">&#160;&#160;unlocked</text></g>
+<g class="ap" style="animation-delay:2.2s"><text x="28" y="110" fill="#cfe3d3" textLength="603" lengthAdjust="spacingAndGlyphs">Shipping&#160;boldly,&#160;learning&#160;in&#160;public&#160;and&#160;building&#160;through&#160;iteration.</text></g>
+<g class="ap" style="animation-delay:2.6s"><text x="28" y="132" fill="#5fd38d" textLength="234" lengthAdjust="spacingAndGlyphs">lord-saviord1@cipherpr:~$&#160;</text></g>
+<rect class="cursor" style="animation-delay:2.6s" x="263" y="118" width="9" height="17" fill="#5fd38d"/>
+</svg>

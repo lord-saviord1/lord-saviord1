@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 272" width="880" height="272" role="img" aria-label="Build principles: 01 Make the idea tangible. 02 Give the interface a point of view. 03 Build the smallest useful system. 04 Let technology serve the experience. 05 Treat depth as communication. 06 Ship, observe, refine.">
+<title>Build principles — lord-saviord1</title>
+<style>
+  text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:15px}
+  .t{font-size:12px}
+  .ap{animation:ap .25s ease-out both}
+  @keyframes ap{from{opacity:0}to{opacity:1}}
+  .cover{transform-box:fill-box;transform-origin:100% 50%;transform:scaleX(0);animation-name:wipe;animation-fill-mode:both}
+  @keyframes wipe{from{transform:scaleX(1)}to{transform:scaleX(0)}}
+  .cursor{animation:ap .25s ease-out both,blink 1.1s steps(1,end) infinite}
+  @keyframes blink{0%{opacity:1}50%{opacity:0}}
+  .card{animation:ap .4s ease-out both}
+  @media (prefers-reduced-motion:reduce){.cover,.cursor,.ap,.card{animation:none}.cover{transform:scaleX(0)}.cursor{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="879" height="271" rx="8" fill="#0d1410" stroke="#1f2e24"/>
+<path d="M.5 8.5a8 8 0 0 1 8-8h863a8 8 0 0 1 8 8V34H.5z" fill="#0a100c"/>
+<line x1="0" y1="34" x2="880" y2="34" stroke="#1f2e24"/>
+<text class="t" x="16" y="22" fill="#6f8a76">lord-saviord1@cipherpr:~$ cat principles.txt</text>
+<text class="t" x="864" y="22" fill="#6f8a76" text-anchor="end">6 rules</text>
+<g class="card" style="animation-delay:0.15s">
+  <rect x="20" y="54" width="272" height="92" rx="6" fill="#101a14" stroke="#1f2e24"/>
+  <rect x="20" y="54" width="3" height="92" fill="#5fd38d"/>
+  <text x="38" y="84" fill="#f2c94c" style="font-size:20px;font-weight:700">01</text>
+  <text x="38" y="110" fill="#cfe3d3" style="font-size:14px">Make the idea tangible.</text>
+  <text x="38" y="129" fill="#cfe3d3" style="font-size:14px"></text>
+</g>
+<g class="card" style="animation-delay:0.27s">
+  <rect x="304" y="54" width="272" height="92" rx="6" fill="#101a14" stroke="#1f2e24"/>
+  <rect x="304" y="54" width="3" height="92" fill="#5fd38d"/>
+  <text x="322" y="84" fill="#f2c94c" style="font-size:20px;font-weight:700">02</text>
+  <text x="322" y="110" fill="#cfe3d3" style="font-size:14px">Give the interface a</text>
+  <text x="322" y="129" fill="#cfe3d3" style="font-size:14px">point of view.</text>
+</g>
+<g class="card" style="animation-delay:0.39s">
+  <rect x="588" y="54" width="272" height="92" rx="6" fill="#101a14" stroke="#1f2e24"/>
+  <rect x="588" y="54" width="3" height="92" fill="#5fd38d"/>
+  <text x="606" y="84" fill="#f2c94c" style="font-size:20px;font-weight:700">03</text>
+  <text x="606" y="110" fill="#cfe3d3" style="font-size:14px">Build the smallest</text>
+  <text x="606" y="129" fill="#cfe3d3" style="font-size:14px">useful system.</text>
+</g>
+<g class="card" style="animation-delay:0.51s">
+  <rect x="20" y="158" width="272" height="92" rx="6" fill="#101a14" stroke="#1f2e24"/>
+  <rect x="20" y="158" width="3" height="92" fill="#5fd38d"/>
+  <text x="38" y="188" fill="#f2c94c" style="font-size:20px;font-weight:700">04</text>
+  <text x="38" y="214" fill="#cfe3d3" style="font-size:14px">Let technology serve the</text>
+  <text x="38" y="233" fill="#cfe3d3" style="font-size:14px">experience.</text>
+</g>
+<g class="card" style="animation-delay:0.63s">
+  <rect x="304" y="158" width="272" height="92" rx="6" fill="#101a14" stroke="#1f2e24"/>
+  <rect x="304" y="158" width="3" height="92" fill="#5fd38d"/>
+  <text x="322" y="188" fill="#f2c94c" style="font-size:20px;font-weight:700">05</text>
+  <text x="322" y="214" fill="#cfe3d3" style="font-size:14px">Treat depth as</text>
+  <text x="322" y="233" fill="#cfe3d3" style="font-size:14px">communication.</text>
+</g>
+<g class="card" style="animation-delay:0.75s">
+  <rect x="588" y="158" width="272" height="92" rx="6" fill="#101a14" stroke="#1f2e24"/>
+  <rect x="588" y="158" width="3" height="92" fill="#5fd38d"/>
+  <text x="606" y="188" fill="#f2c94c" style="font-size:20px;font-weight:700">06</text>
+  <text x="606" y="214" fill="#cfe3d3" style="font-size:14px">Ship, observe, refine.</text>
+  <text x="606" y="233" fill="#cfe3d3" style="font-size:14px"></text>
+</g>
+</svg>

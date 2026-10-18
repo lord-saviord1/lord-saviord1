@@ -14,33 +14,13 @@
 
 </div>
 
-## `// CIPHER SHELL`
+<h2 align="center"><code>// CIPHER SHELL</code></h2>
 
-```console
-╭─[ CIPHER SHELL ]────────────────────────────────────────────────────────────╮
-│  lord-saviord1@cipherpr:~                              zsh · 120×34 · online │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│  $ neofetch --identity                                                     │
-│                                                                            │
-│  user       lord-saviord1                                                  │
-│  alias      itz.sCipher                                                    │
-│  studio     Cipher PR                                                       │
-│  location   Lagos, Nigeria                                                  │
-│  mission    turn ideas into useful, deployed digital systems                │
-│  current    LASU Connect · immersive web · 3D interfaces                    │
-│  stack      React · Node · WebGL · Flutter · Git                            │
-│  mode       build / animate / ship / refine                                │
-│                                                                            │
-│  $ git status                                                              │
-│  On branch main                                                            │
-│  Your branch is ahead — keep shipping.                                     │
-│                                                                            │
-│  $ printf 'status: online — building depth into the web\\n'                │
-│  status: online — building depth into the web                             │
-│  $ _                                                                        │
-╰────────────────────────────────────────────────────────────────────────────╯
-```
+<div align="center">
+
+<img src="./assets/shell.svg" alt="Cipher Shell terminal: neofetch identity for lord-saviord1 (itz.sCipher), Cipher PR, Lagos Nigeria; mission: turn ideas into useful, deployed digital systems; current: LASU Connect, immersive web, 3D interfaces; stack: React, Node, WebGL, Flutter, Git; mode: build, animate, ship, refine; status: online, building depth into the web." width="100%" />
+
+</div>
 
 <div align="center">
 
@@ -50,7 +30,7 @@
 
 </div>
 
-## `// COMMAND CENTER`
+<h2 align="center"><code>// COMMAND CENTER</code></h2>
 
 <table width="100%">
 <tr>
@@ -61,7 +41,7 @@
 </tr>
 </table>
 
-## `// LASU CONNECT // ACTIVE BUILD GUI`
+<h2 align="center"><code>// LASU CONNECT // ACTIVE BUILD GUI</code></h2>
 
 <a href="https://lasu-connect.netlify.app/"><img align="right" width="390" src="https://image.thum.io/get/width/1200/crop/800/https://lasu-connect.netlify.app/" alt="LASU Connect live preview" /></a>
 
@@ -85,7 +65,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 [Repository](https://github.com/lord-saviord1/lasu-connect) · [Live app](https://lasu-connect.netlify.app/) · [Commit history](https://github.com/lord-saviord1/lasu-connect/commits/master)
 
-## `// EXTREME STACK DASHBOARD`
+<h2 align="center"><code>// EXTREME STACK DASHBOARD</code></h2>
 
 <div align="center">
 
@@ -184,7 +164,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 </tr>
 </table>
 
-## `// DEPLOYMENT CONTROL GUI`
+<h2 align="center"><code>// DEPLOYMENT CONTROL GUI</code></h2>
 
 <table width="100%">
 <tr>
@@ -205,7 +185,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <tr><td><b>Docker</b></td><td>Container-oriented deployment templates and services</td><td>Infrastructure projects</td></tr>
 </table>
 
-## `// PROJECT STACK CARDS`
+<h2 align="center"><code>// PROJECT STACK CARDS</code></h2>
 
 <table width="100%">
 <tr>
@@ -306,7 +286,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 </tr>
 </table>
 
-## `// IMMERSIVE WEB PREVIEW WALL`
+<h2 align="center"><code>// IMMERSIVE WEB PREVIEW WALL</code></h2>
 
 <table width="100%">
 <tr>
@@ -322,7 +302,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 </td>
 <td width="50%" valign="top">
 
-<a href="https://jochebedstouch.cipherpr.live"><img src="https://image.thum.io/get/width/1200/crop/800/https://jochebedstouch.cipherpr.live" width="100%" alt="Jochebed's Touch preview" /></a>
+<a href="https://jochebedstouch.cipherpr.live"><img src="https://image.thum.io/get/width/1200/crop/800/wait/15/https://jochebedstouch.cipherpr.live" width="100%" alt="Jochebed's Touch preview" /></a>
 
 <h3>JOCHEBED'S TOUCH</h3>
 <p>Custom WebGL canvas, shader programs, pointer-reactive state, pinned scroll stories and graceful motion fallbacks.</p>
@@ -333,7 +313,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 </tr>
 </table>
 
-## `// CIPHER PR DOMAIN GUI`
+<h2 align="center"><code>// CIPHER PR DOMAIN GUI</code></h2>
 
 <div align="center">
 
@@ -353,7 +333,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <tr><td>Full Midnight Shutdown</td><td>Visual web experience</td><td><a href="https://fullmidnightshutdown.cipherpr.live">fullmidnightshutdown.cipherpr.live</a></td></tr>
 </table>
 
-## `// GIT WORKFLOW`
+<h2 align="center"><code>// GIT WORKFLOW</code></h2>
 
 <table width="100%">
 <tr>
@@ -371,7 +351,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 </div>
 
-## `// STACK EVOLUTION GUI`
+<h2 align="center"><code>// STACK EVOLUTION GUI</code></h2>
 
 <table width="100%">
 <tr><td width="18%" align="center"><b>STATIC WEB</b></td><td>HTML · CSS · vanilla JavaScript · Bootstrap · Bootstrap Icons</td></tr>
@@ -383,7 +363,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <tr><td align="center"><b>DELIVERY</b></td><td>Git · GitHub · Cloudflare · Vercel · Netlify · GitHub Pages</td></tr>
 </table>
 
-## `// GITHUB TELEMETRY`
+<h2 align="center"><code>// GITHUB TELEMETRY</code></h2>
 
 <div align="center">
 
@@ -395,7 +375,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <!-- TELEMETRY:START -->
 ### `AUTO-GENERATED TELEMETRY GUI`
 
-## `// TELEMETRY COMMAND CENTER`
+<h2 align="center"><code>// TELEMETRY COMMAND CENTER</code></h2>
 
 <table width="100%">
 <tr>
@@ -407,7 +387,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 </tr>
 </table>
 
-## `// SERVICES & PLATFORM CONTROL`
+<h2 align="center"><code>// SERVICES & PLATFORM CONTROL</code></h2>
 
 <table width="100%">
 <tr><th align="left">Zone</th><th align="left">Service panel</th><th align="left">Role matrix</th><th align="left">Provenance</th><th align="left">Connected repositories</th></tr>
@@ -421,7 +401,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <tr><td><b>Observability & Product Operations</b></td><td><code>Git History</code> · <code>Deployment Status</code> · <code>Manual QA</code> · <code>Live-site Verification</code></td><td>Git History: Change lineage and regression tracking<br/>Deployment Status: Provider and live endpoint visibility<br/>Manual QA: Human validation before and after release<br/>Live-site Verification: Production URL availability checks</td><td>Git History: <code>verified_from_repository</code><br/>Deployment Status: <code>inferred_from_deployment_url</code><br/>Manual QA: <code>confirmed_by_owner</code><br/>Live-site Verification: <code>verified_from_repository</code></td><td>15 repos</td></tr>
 </table>
 
-## `// SERVICE PROVIDER TELEMETRY`
+<h2 align="center"><code>// SERVICE PROVIDER TELEMETRY</code></h2>
 
 <table width="100%">
 <tr><th align="left">Provider</th><th align="left">Role</th><th align="left">Evidence / source</th><th align="left">Connected repositories / domains</th><th align="left">Live URLs</th></tr>
@@ -431,7 +411,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <tr><td><b>Vercel</b></td><td>Deployment and live delivery</td><td>deployment_url<br/><code>inferred_from_deployment_url</code></td><td><code>lord-saviord1/cipherstream-admin</code><br/><code>lord-saviord1/cipherstream-backend</code><br/><code>lord-saviord1/cipherstream-frontend</code><br/><code>lord-saviord1/Penova</code><br/><code>cipherstream-admin.vercel.app</code><br/><code>cipherstream-backend.vercel.app</code><br/><code>cipherstream-frontend.vercel.app</code><br/><code>penova-eight.vercel.app</code></td><td><a href="https://cipherstream-admin.vercel.app">https://cipherstream-admin.vercel.app</a><br/><a href="https://cipherstream-backend.vercel.app">https://cipherstream-backend.vercel.app</a><br/><a href="https://cipherstream-frontend.vercel.app">https://cipherstream-frontend.vercel.app</a><br/><a href="https://penova-eight.vercel.app">https://penova-eight.vercel.app</a></td></tr>
 </table>
 
-## `// SOURCE CONTROL & PROJECT ACTIVITY`
+<h2 align="center"><code>// SOURCE CONTROL & PROJECT ACTIVITY</code></h2>
 
 | Project | Stack / languages | Last update | Latest commit | Deployment | Provider |
 |---|---|---|---|---|---|
@@ -451,7 +431,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 | [lord-saviord1/cipher-audit](https://github.com/lord-saviord1/cipher-audit) | HTML 100% | 2026-08-09 | [c757bd4](https://github.com/lord-saviord1/cipher-audit/commit/c757bd45ad94a9b213aaae1d00858b8fe9935fbb) · 2026-08-09 · Daniel Savior Ozoemena · Fix missing newline at end of index.html | — | — |
 | [lord-saviord1/offline-payment-proof](https://github.com/lord-saviord1/offline-payment-proof) | JavaScript 96.43% · HTML 2.31% · CSS 1.26% | 2026-10-13 | [8140d7c](https://github.com/lord-saviord1/offline-payment-proof/commit/8140d7cc8a4badc7ea4c63bf9e643c3be09df912) · 2026-10-13 · Daniel Savior Ozoemena · Add deployment instructions for Zenith Offline Proof | — | — |
 
-## `// LANGUAGE TELEMETRY MATRIX`
+<h2 align="center"><code>// LANGUAGE TELEMETRY MATRIX</code></h2>
 
 | Language | Bytes | Percentage |
 |---|---:|---:|
@@ -461,7 +441,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 | CSS | 114,897 | 7.22% |
 | Dart | 15,343 | 0.96% |
 
-## `// TELEMETRY NOTES`
+<h2 align="center"><code>// TELEMETRY NOTES</code></h2>
 
 > Optional profile activity reference (2026-09-01 to 2026-09-30): [https://github.com/lord-saviord1](https://github.com/lord-saviord1)
 
@@ -483,26 +463,23 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 </div>
 
-## `// ACHIEVEMENT PANEL`
+<h2 align="center"><code>// ACHIEVEMENT PANEL</code></h2>
 
 <div align="center">
 
-<a href="https://github.com/lord-saviord1?tab=achievements"><img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="88" alt="YOLO achievement" /></a>
-
-### **YOLO**
-
-Shipping boldly, learning in public and building through iteration.
+<a href="https://github.com/lord-saviord1?tab=achievements"><img src="./assets/achievement.svg" alt="Achievement unlocked: YOLO. Shipping boldly, learning in public and building through iteration." width="100%" /></a>
 
 </div>
 
-## `// BUILD PRINCIPLES GUI`
+<h2 align="center"><code>// BUILD PRINCIPLES GUI</code></h2>
 
-<table width="100%">
-<tr><td align="center"><b>01</b><br/>Make the idea tangible.</td><td align="center"><b>02</b><br/>Give the interface a point of view.</td><td align="center"><b>03</b><br/>Build the smallest useful system.</td></tr>
-<tr><td align="center"><b>04</b><br/>Let technology serve the experience.</td><td align="center"><b>05</b><br/>Treat depth as communication.</td><td align="center"><b>06</b><br/>Ship, observe, refine.</td></tr>
-</table>
+<div align="center">
 
-## `// CONNECT GUI`
+<img src="./assets/principles.svg" alt="Build principles: 01 Make the idea tangible. 02 Give the interface a point of view. 03 Build the smallest useful system. 04 Let technology serve the experience. 05 Treat depth as communication. 06 Ship, observe, refine." width="100%" />
+
+</div>
+
+<h2 align="center"><code>// CONNECT GUI</code></h2>
 
 <div align="center">
 

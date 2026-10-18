@@ -365,7 +365,7 @@ function buildGeneratedDashboardMarkdown(data) {
 
   lines.push('### `AUTO-GENERATED TELEMETRY GUI`');
   lines.push('');
-  lines.push('## `// TELEMETRY COMMAND CENTER`');
+  lines.push('<h2 align=\"center\"><code>// TELEMETRY COMMAND CENTER</code></h2>');
   lines.push('');
   lines.push('<table width="100%">');
   lines.push('<tr>');
@@ -379,7 +379,7 @@ function buildGeneratedDashboardMarkdown(data) {
   lines.push('</tr>');
   lines.push('</table>');
   lines.push('');
-  lines.push('## `// SERVICES & PLATFORM CONTROL`');
+  lines.push('<h2 align=\"center\"><code>// SERVICES & PLATFORM CONTROL</code></h2>');
   lines.push('');
   lines.push('<table width="100%">');
   lines.push('<tr><th align="left">Zone</th><th align="left">Service panel</th><th align="left">Role matrix</th><th align="left">Provenance</th><th align="left">Connected repositories</th></tr>');
@@ -398,7 +398,7 @@ function buildGeneratedDashboardMarkdown(data) {
   lines.push('</table>');
   lines.push('');
 
-  lines.push('## `// SERVICE PROVIDER TELEMETRY`');
+  lines.push('<h2 align=\"center\"><code>// SERVICE PROVIDER TELEMETRY</code></h2>');
   lines.push('');
   lines.push('<table width="100%">');
   lines.push('<tr><th align="left">Provider</th><th align="left">Role</th><th align="left">Evidence / source</th><th align="left">Connected repositories / domains</th><th align="left">Live URLs</th></tr>');
@@ -422,7 +422,7 @@ function buildGeneratedDashboardMarkdown(data) {
   lines.push('</table>');
   lines.push('');
 
-  lines.push('## `// SOURCE CONTROL & PROJECT ACTIVITY`');
+  lines.push('<h2 align=\"center\"><code>// SOURCE CONTROL & PROJECT ACTIVITY</code></h2>');
   lines.push('');
   lines.push('| Project | Stack / languages | Last update | Latest commit | Deployment | Provider |');
   lines.push('|---|---|---|---|---|---|');
@@ -459,7 +459,7 @@ function buildGeneratedDashboardMarkdown(data) {
   }
 
   lines.push('');
-  lines.push('## `// LANGUAGE TELEMETRY MATRIX`');
+  lines.push('<h2 align=\"center\"><code>// LANGUAGE TELEMETRY MATRIX</code></h2>');
   lines.push('');
   lines.push('| Language | Bytes | Percentage |');
   lines.push('|---|---:|---:|');
@@ -473,7 +473,7 @@ function buildGeneratedDashboardMarkdown(data) {
   }
 
   lines.push('');
-  lines.push('## `// TELEMETRY NOTES`');
+  lines.push('<h2 align=\"center\"><code>// TELEMETRY NOTES</code></h2>');
   lines.push('');
   if (data.profile_activity_reference?.url) {
     lines.push(
