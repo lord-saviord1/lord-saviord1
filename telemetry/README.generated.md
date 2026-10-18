@@ -3,19 +3,19 @@
 
 ### `AUTO-GENERATED TELEMETRY GUI`
 
-## `// TELEMETRY COMMAND CENTER`
+<h2 align="center"><code>// TELEMETRY COMMAND CENTER</code></h2>
 
 <table width="100%">
 <tr>
 <td><b>Status</b><br/>✅ healthy</td>
-<td><b>Last updated (UTC)</b><br/><code>2026-10-18T10:46:56.470Z</code></td>
+<td><b>Last updated (UTC)</b><br/><code>2026-10-18T11:00:38.668Z</code></td>
 <td><b>Data source</b><br/>GitHub REST API v3</td>
 <td><b>Projects scanned</b><br/><code>15/15</code></td>
 <td><b>Commit window</b><br/><code>30 days</code> · per repo cap <code>100 commits</code></td>
 </tr>
 </table>
 
-## `// SERVICES & PLATFORM CONTROL`
+<h2 align="center"><code>// SERVICES & PLATFORM CONTROL</code></h2>
 
 <table width="100%">
 <tr><th align="left">Zone</th><th align="left">Service panel</th><th align="left">Role matrix</th><th align="left">Provenance</th><th align="left">Connected repositories</th></tr>
@@ -29,7 +29,7 @@
 <tr><td><b>Observability & Product Operations</b></td><td><code>Git History</code> · <code>Deployment Status</code> · <code>Manual QA</code> · <code>Live-site Verification</code></td><td>Git History: Change lineage and regression tracking<br/>Deployment Status: Provider and live endpoint visibility<br/>Manual QA: Human validation before and after release<br/>Live-site Verification: Production URL availability checks</td><td>Git History: <code>verified_from_repository</code><br/>Deployment Status: <code>inferred_from_deployment_url</code><br/>Manual QA: <code>confirmed_by_owner</code><br/>Live-site Verification: <code>verified_from_repository</code></td><td>15 repos</td></tr>
 </table>
 
-## `// SERVICE PROVIDER TELEMETRY`
+<h2 align="center"><code>// SERVICE PROVIDER TELEMETRY</code></h2>
 
 <table width="100%">
 <tr><th align="left">Provider</th><th align="left">Role</th><th align="left">Evidence / source</th><th align="left">Connected repositories / domains</th><th align="left">Live URLs</th></tr>
@@ -39,7 +39,7 @@
 <tr><td><b>Vercel</b></td><td>Deployment and live delivery</td><td>deployment_url<br/><code>inferred_from_deployment_url</code></td><td><code>lord-saviord1/cipherstream-admin</code><br/><code>lord-saviord1/cipherstream-backend</code><br/><code>lord-saviord1/cipherstream-frontend</code><br/><code>lord-saviord1/Penova</code><br/><code>cipherstream-admin.vercel.app</code><br/><code>cipherstream-backend.vercel.app</code><br/><code>cipherstream-frontend.vercel.app</code><br/><code>penova-eight.vercel.app</code></td><td><a href="https://cipherstream-admin.vercel.app">https://cipherstream-admin.vercel.app</a><br/><a href="https://cipherstream-backend.vercel.app">https://cipherstream-backend.vercel.app</a><br/><a href="https://cipherstream-frontend.vercel.app">https://cipherstream-frontend.vercel.app</a><br/><a href="https://penova-eight.vercel.app">https://penova-eight.vercel.app</a></td></tr>
 </table>
 
-## `// SOURCE CONTROL & PROJECT ACTIVITY`
+<h2 align="center"><code>// SOURCE CONTROL & PROJECT ACTIVITY</code></h2>
 
 | Project | Stack / languages | Last update | Latest commit | Deployment | Provider |
 |---|---|---|---|---|---|
@@ -59,7 +59,7 @@
 | [lord-saviord1/cipher-audit](https://github.com/lord-saviord1/cipher-audit) | HTML 100% | 2026-08-09 | [c757bd4](https://github.com/lord-saviord1/cipher-audit/commit/c757bd45ad94a9b213aaae1d00858b8fe9935fbb) · 2026-08-09 · Daniel Savior Ozoemena · Fix missing newline at end of index.html | — | — |
 | [lord-saviord1/offline-payment-proof](https://github.com/lord-saviord1/offline-payment-proof) | JavaScript 96.43% · HTML 2.31% · CSS 1.26% | 2026-10-13 | [8140d7c](https://github.com/lord-saviord1/offline-payment-proof/commit/8140d7cc8a4badc7ea4c63bf9e643c3be09df912) · 2026-10-13 · Daniel Savior Ozoemena · Add deployment instructions for Zenith Offline Proof | — | — |
 
-## `// LANGUAGE TELEMETRY MATRIX`
+<h2 align="center"><code>// LANGUAGE TELEMETRY MATRIX</code></h2>
 
 | Language | Bytes | Percentage |
 |---|---:|---:|
@@ -69,7 +69,7 @@
 | CSS | 114,897 | 7.22% |
 | Dart | 15,343 | 0.96% |
 
-## `// TELEMETRY NOTES`
+<h2 align="center"><code>// TELEMETRY NOTES</code></h2>
 
 > Optional profile activity reference (2026-09-01 to 2026-09-30): [https://github.com/lord-saviord1](https://github.com/lord-saviord1)
 
