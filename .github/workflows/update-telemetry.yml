@@ -4,7 +4,7 @@ name: Update repository telemetry
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * 1'
+    - cron: '0 5 * * *'  # every day, 05:00 UTC (06:00 Lagos)
   push:
     paths:
       - '.github/workflows/update-telemetry.yml'
@@ -45,13 +45,13 @@ jobs:
       - name: Commit generated telemetry
         if: github.ref_name == github.event.repository.default_branch
         run: |
-          if [ -z "$(git status --porcelain README.md telemetry/data.json telemetry/README.generated.md assets/telemetry.svg)" ]; then
+          if [ -z "$(git status --porcelain README.md telemetry/data.json telemetry/history.json telemetry/README.generated.md assets/telemetry.svg assets/activity.svg assets/status.svg)" ]; then
             echo "No telemetry changes to commit"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md telemetry/data.json telemetry/README.generated.md assets/telemetry.svg
+          git add README.md telemetry/data.json telemetry/history.json telemetry/README.generated.md assets/telemetry.svg assets/activity.svg assets/status.svg
           git commit -m "chore(telemetry): auto-update generated dashboard [skip ci]"
           git push
