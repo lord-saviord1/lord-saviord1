@@ -135,7 +135,116 @@ ${langEls}
 
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, svg);
+
+  // ---------- activity.svg + status.svg (added: daily graphs) ----------
+  writeActivity(projects, windowDays, owner);
+  writeStatus(synced);
   console.log(`Wrote ${path.relative(root, outPath)} (${svg.length} bytes) from ${projects.length} featured projects; public repos: ${publicRepos}`);
+}
+
+
+// ============ activity.svg : commits per day across featured projects ============
+function writeActivity(projects, windowDays, owner) {
+  const W = 880, H = 270, days = 30;
+  const perDay = {};
+  let haveDates = false;
+  for (const p of projects) for (const d of (p.recent_commit_dates || [])) { perDay[d] = (perDay[d] || 0) + 1; haveDates = true; }
+  const list = [];
+  const now = new Date(); now.setUTCHours(0, 0, 0, 0);
+  for (let i = days - 1; i >= 0; i--) {
+    const d = new Date(now.getTime() - i * 86400000);
+    const key = d.toISOString().slice(0, 10);
+    list.push({ key, n: perDay[key] || 0, label: key.slice(5) });
+  }
+  const total = list.reduce((a, b) => a + b.n, 0);
+  const active = list.filter(d => d.n > 0).length;
+  const best = list.reduce((a, b) => (b.n > a.n ? b : a), list[0]);
+  const max = Math.max(1, best.n);
+  const x0 = 24, chartW = W - 48, slot = chartW / days, bw = slot - 6;
+  const base = 212, chartH = 120;
+  const bars = list.map((d, i) => {
+    const h = d.n ? Math.max(4, Math.round((d.n / max) * chartH)) : 2;
+    const x = x0 + i * slot + 3;
+    const col = d.n ? C.green : C.line;
+    const lab = (i % 5 === 0 || i === days - 1) ? `<text x="${x + bw / 2}" y="${base + 18}" fill="${C.dim}" text-anchor="middle" style="font-size:10px">${d.label}</text>` : '';
+    const val = d.n ? `<text x="${x + bw / 2}" y="${base - h - 5}" fill="${C.gold}" text-anchor="middle" style="font-size:10px;font-weight:700">${d.n}</text>` : '';
+    return `<rect class="bar" style="animation-delay:${0.2 + i * 0.03}s" x="${x}" y="${base - h}" width="${bw}" height="${h}" rx="2" fill="${col}"/>${val}${lab}`;
+  }).join('\n');
+  const body = haveDates
+    ? bars
+    : `<text x="${W / 2}" y="140" fill="${C.dim}" text-anchor="middle">awaiting first daily sync…</text>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Commit activity over the last ${days} days across featured projects: ${total} commits on ${active} active days${haveDates ? ', busiest day ' + best.key + ' with ' + best.n : ''}.">
+<title>Commit activity, last ${days} days — ${esc(owner)}</title>
+<style>
+  text{font-family:${FONT};font-size:12px}
+  .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow .7s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+  @media (prefers-reduced-motion:reduce){.bar{animation:none}}
+</style>
+<rect x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="8" fill="${C.bg}" stroke="${C.line}"/>
+<path d="M.5 8.5a8 8 0 0 1 8-8h${W - 17}a8 8 0 0 1 8 8V34H.5z" fill="${C.bar}"/>
+<line x1="0" y1="34" x2="${W}" y2="34" stroke="${C.line}"/>
+<text x="16" y="22" fill="${C.dim}">${esc(owner)}@cipherpr:~$ git log --since=${days}.days</text>
+<text x="${W - 16}" y="22" fill="${C.gold}" text-anchor="end">${total} commits · ${active} active days${haveDates ? ' · best ' + best.label + ' (' + best.n + ')' : ''}</text>
+<line x1="${x0}" y1="${base}" x2="${W - x0}" y2="${base}" stroke="${C.line}"/>
+${body}
+</svg>
+`;
+  fs.writeFileSync(path.join(root, 'assets', 'activity.svg'), svg);
+}
+
+// ============ status.svg : README age + telemetry uptime ============
+function dayDiff(a, b) { return Math.round((Date.parse(b + 'T00:00:00Z') - Date.parse(a + 'T00:00:00Z')) / 86400000); }
+
+function writeStatus(synced) {
+  const { execSync } = require('child_process');
+  const today = new Date().toISOString().slice(0, 10);
+
+  // history of successful daily runs (this script only runs after telemetry succeeded)
+  const histPath = path.join(root, 'telemetry', 'history.json');
+  let hist = { first_run: today, successful_days: [] };
+  try { hist = JSON.parse(fs.readFileSync(histPath, 'utf8')); } catch (_) {}
+  if (!Array.isArray(hist.successful_days)) hist.successful_days = [];
+  if (!hist.first_run) hist.first_run = today;
+  if (!hist.successful_days.includes(today)) hist.successful_days.push(today);
+  hist.successful_days = [...new Set(hist.successful_days)].sort();
+  fs.writeFileSync(histPath, JSON.stringify(hist, null, 2) + '\n');
+
+  const have = new Set(hist.successful_days);
+  const span = dayDiff(hist.first_run, today) + 1;
+  const downtime = Math.max(0, span - have.size);
+  let streak = 0;
+  for (let d = new Date(today + 'T00:00:00Z'); have.has(d.toISOString().slice(0, 10)); d = new Date(d.getTime() - 86400000)) streak++;
+
+  // days since the profile was last changed by a person (bot telemetry commits ignored)
+  let sinceChange = '—';
+  try {
+    const iso = execSync('git log -1 --format=%cI --invert-grep --grep="chore(telemetry)" -- README.md assets', { cwd: root, stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
+    if (iso) sinceChange = String(Math.max(0, dayDiff(iso.slice(0, 10), today)));
+  } catch (_) {}
+
+  const W = 880, H = 84;
+  const cells = [
+    ['README UNCHANGED', sinceChange === '—' ? '—' : (sinceChange === '0' ? 'today' : `${sinceChange}d`)],
+    ['LAST SYNC', today.slice(5)],
+    ['SYNC STREAK', `${streak}d`],
+    ['DOWNTIME DAYS', String(downtime)],
+    ['RUNNING SINCE', hist.first_run.slice(5)],
+  ];
+  const cw = W / cells.length;
+  const els = cells.map(([k, v], i) => `<g>
+  ${i ? `<line x1="${i * cw}" y1="14" x2="${i * cw}" y2="${H - 14}" stroke="${C.line}"/>` : ''}
+  <text x="${i * cw + cw / 2}" y="34" fill="${C.dim}" text-anchor="middle" style="font-size:10px;letter-spacing:.1em">${k}</text>
+  <text x="${i * cw + cw / 2}" y="62" fill="${k === 'DOWNTIME DAYS' && downtime === 0 ? C.green : C.gold}" text-anchor="middle" style="font-size:22px;font-weight:700">${v}</text>
+</g>`).join('\n');
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Profile status: README unchanged for ${sinceChange} days, last telemetry sync ${today}, sync streak ${streak} days, ${downtime} downtime days, running since ${hist.first_run}.">
+<title>Profile status</title>
+<style>text{font-family:${FONT};font-size:12px}</style>
+<path d="M.5 0V${H - 8.5}a8 8 0 0 0 8 8h${W - 17}a8 8 0 0 0 8-8V0" fill="${C.bar}" stroke="${C.line}"/>
+${els}
+</svg>
+`;
+  fs.writeFileSync(path.join(root, 'assets', 'status.svg'), svg);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

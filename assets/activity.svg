@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="880" height="270" role="img" aria-label="Commit activity over the last 30 days across featured projects: 0 commits on 0 active days.">
+<title>Commit activity, last 30 days — lord-saviord1</title>
+<style>
+  text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
+  .bar{transform-box:fill-box;transform-origin:50% 100%;animation:grow .7s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+  @media (prefers-reduced-motion:reduce){.bar{animation:none}}
+</style>
+<rect x=".5" y=".5" width="879" height="269" rx="8" fill="#0d1410" stroke="#1f2e24"/>
+<path d="M.5 8.5a8 8 0 0 1 8-8h863a8 8 0 0 1 8 8V34H.5z" fill="#0a100c"/>
+<line x1="0" y1="34" x2="880" y2="34" stroke="#1f2e24"/>
+<text x="16" y="22" fill="#6f8a76">lord-saviord1@cipherpr:~$ git log --since=30.days</text>
+<text x="864" y="22" fill="#f2c94c" text-anchor="end">0 commits · 0 active days</text>
+<line x1="24" y1="212" x2="856" y2="212" stroke="#1f2e24"/>
+<text x="440" y="140" fill="#6f8a76" text-anchor="middle">awaiting first daily sync…</text>
+</svg>

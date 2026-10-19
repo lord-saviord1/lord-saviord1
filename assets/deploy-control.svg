@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 176" width="880" height="176" role="img" aria-label="Deployment pipeline: Git (local history, branches, commits, push, review) to Build (npm scripts, static export, server deployment) to Host (Cloudflare Pages, Vercel, Netlify, GitHub Pages) to Domain (custom surfaces, Cipher PR network, live experiences).">
+<title>Deployment control — lord-saviord1</title><style>text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
+.ap{animation:ap .5s ease-out both}@keyframes ap{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 1.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.ap,.pulse{animation:none}}</style>
+<rect x=".5" y=".5" width="879" height="175" rx="8" fill="#0d1410" stroke="#1f2e24"/>
+<path d="M.5 8.5a8 8 0 0 1 8-8h863a8 8 0 0 1 8 8V34H.5z" fill="#0a100c"/><line x1="0" y1="34" x2="880" y2="34" stroke="#1f2e24"/>
+<text x="16" y="22" fill="#6f8a76">lord-saviord1@cipherpr:~$ deploy --pipeline</text>
+<text x="864" y="22" fill="#5fd38d" text-anchor="end">● ready</text>
+<g class="ap" style="animation-delay:0.1s"><rect x="20" y="54" width="184.5" height="100" rx="6" fill="#101a14" stroke="#1f2e24"/>
+<rect x="20" y="54" width="3" height="100" fill="#5fd38d"/>
+<text x="38" y="82" fill="#f2c94c" style="font-size:15px;font-weight:700;letter-spacing:.08em">GIT</text>
+<text x="38" y="105" fill="#cfe3d3">local history</text><text x="38" y="123" fill="#cfe3d3">branches · commits</text><text x="38" y="141" fill="#cfe3d3">push · review</text><text x="221.5" y="112" fill="#5fd38d" text-anchor="middle" style="font-size:20px">→</text></g>
+<g class="ap" style="animation-delay:0.24000000000000002s"><rect x="238.5" y="54" width="184.5" height="100" rx="6" fill="#101a14" stroke="#1f2e24"/>
+<rect x="238.5" y="54" width="3" height="100" fill="#5fd38d"/>
+<text x="256.5" y="82" fill="#f2c94c" style="font-size:15px;font-weight:700;letter-spacing:.08em">BUILD</text>
+<text x="256.5" y="105" fill="#cfe3d3">npm scripts</text><text x="256.5" y="123" fill="#cfe3d3">static export</text><text x="256.5" y="141" fill="#cfe3d3">server deployment</text><text x="440" y="112" fill="#5fd38d" text-anchor="middle" style="font-size:20px">→</text></g>
+<g class="ap" style="animation-delay:0.38s"><rect x="457" y="54" width="184.5" height="100" rx="6" fill="#101a14" stroke="#1f2e24"/>
+<rect x="457" y="54" width="3" height="100" fill="#5fd38d"/>
+<text x="475" y="82" fill="#f2c94c" style="font-size:15px;font-weight:700;letter-spacing:.08em">HOST</text>
+<text x="475" y="105" fill="#cfe3d3">Cloudflare Pages</text><text x="475" y="123" fill="#cfe3d3">Vercel · Netlify</text><text x="475" y="141" fill="#cfe3d3">GitHub Pages</text><text x="658.5" y="112" fill="#5fd38d" text-anchor="middle" style="font-size:20px">→</text></g>
+<g class="ap" style="animation-delay:0.52s"><rect x="675.5" y="54" width="184.5" height="100" rx="6" fill="#101a14" stroke="#1f2e24"/>
+<rect x="675.5" y="54" width="3" height="100" fill="#5fd38d"/>
+<text x="693.5" y="82" fill="#f2c94c" style="font-size:15px;font-weight:700;letter-spacing:.08em">DOMAIN</text>
+<text x="693.5" y="105" fill="#cfe3d3">custom surfaces</text><text x="693.5" y="123" fill="#cfe3d3">Cipher PR network</text><text x="693.5" y="141" fill="#cfe3d3">live experiences</text></g></svg>

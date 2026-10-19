@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 124" width="212" height="124" role="img" aria-label="IMMERSIVE WEB: TAG · JOCHEBED, 3D, WebGL and depth systems">
+<title>IMMERSIVE WEB — TAG · JOCHEBED</title><style>text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
+.ap{animation:ap .5s ease-out both}@keyframes ap{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 1.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.ap,.pulse{animation:none}}</style>
+<rect x=".5" y=".5" width="211" height="123" rx="8" fill="#0d1410" stroke="#1f2e24"/>
+<rect x="0.5" y="0.5" width="211" height="4" rx="2" fill="#5aa9ff" opacity=".85"/>
+<g class="ap" style="animation-delay:0.12s">
+<circle class="pulse" cx="24" cy="34" r="5" fill="#5aa9ff"/>
+<text x="38" y="38" fill="#6f8a76" style="font-size:10.5px;letter-spacing:.1em">IMMERSIVE WEB</text>
+<text x="20" y="74" fill="#cfe3d3" style="font-size:17px;font-weight:700">TAG · JOCHEBED</text>
+<text x="20" y="98" fill="#6f8a76" style="font-size:11px">3D, WebGL and depth systems</text></g>
+</svg>

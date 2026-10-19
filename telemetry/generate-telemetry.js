@@ -267,6 +267,12 @@ async function collectProjectTelemetry(project, sinceIso, windowDays) {
     latest_activity_at: repository.pushed_at || repository.updated_at || null,
     latest_commit: latestCommit,
     recent_commit_count: recentCommitCount,
+    recent_commit_dates:
+      recentCommitsResponse.ok && Array.isArray(recentCommitsResponse.data)
+        ? recentCommitsResponse.data
+            .map((c) => String(c.commit?.author?.date || '').slice(0, 10))
+            .filter(Boolean)
+        : [],
     recent_commit_window_days: windowDays,
     recent_commit_count_bounded: bounded,
     homepage: repository.homepage || null,

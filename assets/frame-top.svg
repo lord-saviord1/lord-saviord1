@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 44" width="880" height="44" role="img" aria-label="Editor window: README.md in lord-saviord1/lord-saviord1">
+<title>README.md — lord-saviord1</title><style>text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
+.ap{animation:ap .5s ease-out both}@keyframes ap{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 1.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.ap,.pulse{animation:none}}</style>
+<path d="M.5 44V8.5a8 8 0 0 1 8-8h863a8 8 0 0 1 8 8V44" fill="#0a100c" stroke="#1f2e24"/>
+<circle cx="24" cy="22" r="5.5" fill="#ff5f57"/><circle cx="44" cy="22" r="5.5" fill="#febc2e"/><circle cx="64" cy="22" r="5.5" fill="#28c840"/>
+<path d="M96 44v-26a6 6 0 0 1 6-6h140a6 6 0 0 1 6 6v26z" fill="#0d1410" stroke="#1f2e24"/>
+<text x="116" y="27" fill="#cfe3d3">◆ README.md</text>
+<text x="864" y="27" fill="#6f8a76" text-anchor="end">lord-saviord1/lord-saviord1 · main</text>
+</svg>

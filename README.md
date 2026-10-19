@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./assets/frame-top.svg" alt="Editor window: README.md in lord-saviord1/lord-saviord1" width="100%" />
+
 # `LORD-SAVIORD1`
 
 ### **PRODUCT ENGINEER · IMMERSIVE WEB BUILDER · CIPHER PR**
@@ -32,14 +34,14 @@
 
 <h2 align="center"><code>// COMMAND CENTER</code></h2>
 
-<table width="100%">
-<tr>
-<td width="25%" align="center"><b>PRIMARY BUILD</b><br/><br/>🟢<br/><a href="https://lasu-connect.netlify.app/"><b>LASU CONNECT</b></a><br/><sub>active full-stack platform</sub></td>
-<td width="25%" align="center"><b>IMMERSIVE WEB</b><br/><br/>🔵<br/><a href="https://tagiton.cipherpr.live"><b>TAG · JOCHEBED</b></a><br/><sub>3D, WebGL and depth systems</sub></td>
-<td width="25%" align="center"><b>MOBILE SURFACE</b><br/><br/>🟣<br/><a href="https://github.com/lord-saviord1/cipherstream-flutter"><b>FLUTTER</b></a><br/><sub>Dart product interface</sub></td>
-<td width="25%" align="center"><b>STUDIO NETWORK</b><br/><br/>🟠<br/><a href="https://cipherpr.me"><b>CIPHER PR</b></a><br/><sub>brand, products and domains</sub></td>
-</tr>
-</table>
+<div align="center">
+
+<a href="https://lasu-connect.netlify.app/"><img src="./assets/cc-1.svg" width="24%" alt="Primary build: LASU Connect" /></a>
+<a href="https://tagiton.cipherpr.live"><img src="./assets/cc-2.svg" width="24%" alt="Immersive web: TAG IT ON and Jochebed" /></a>
+<a href="https://github.com/lord-saviord1/cipherstream-flutter"><img src="./assets/cc-3.svg" width="24%" alt="Mobile surface: Flutter, CipherStream" /></a>
+<a href="https://cipherpr.me"><img src="./assets/cc-4.svg" width="24%" alt="Studio network: Cipher PR" /></a>
+
+</div>
 
 <h2 align="center"><code>// LASU CONNECT // ACTIVE BUILD GUI</code></h2>
 
@@ -166,14 +168,11 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 <h2 align="center"><code>// DEPLOYMENT CONTROL GUI</code></h2>
 
-<table width="100%">
-<tr>
-<td width="25%" align="center"><h3>GIT</h3><sub>local history<br/>branches · commits<br/>push · review</sub></td>
-<td width="25%" align="center"><h3>BUILD</h3><sub>npm scripts<br/>static export<br/>server deployment</sub></td>
-<td width="25%" align="center"><h3>HOST</h3><sub>Cloudflare Pages<br/>Vercel · Netlify<br/>GitHub Pages</sub></td>
-<td width="25%" align="center"><h3>DOMAIN</h3><sub>custom surfaces<br/>Cipher PR network<br/>live experiences</sub></td>
-</tr>
-</table>
+<div align="center">
+
+<img src="./assets/deploy-control.svg" alt="Deployment pipeline: Git, then Build, then Host (Cloudflare Pages, Vercel, Netlify, GitHub Pages), then Domain (custom surfaces, Cipher PR network, live experiences)." width="100%" />
+
+</div>
 
 <table width="100%">
 <tr><th>Application</th><th>Role in the build system</th><th>Connected surface</th></tr>
@@ -380,7 +379,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <table width="100%">
 <tr>
 <td><b>Status</b><br/>✅ healthy</td>
-<td><b>Last updated (UTC)</b><br/><code>2026-10-19T12:37:12.901Z</code></td>
+<td><b>Last updated (UTC)</b><br/><code>2026-10-18T10:46:56.470Z</code></td>
 <td><b>Data source</b><br/>GitHub REST API v3</td>
 <td><b>Projects scanned</b><br/><code>15/15</code></td>
 <td><b>Commit window</b><br/><code>30 days</code> · per repo cap <code>100 commits</code></td>
@@ -459,7 +458,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 <img src="https://streak-stats.demolab.com?user=lord-saviord1&theme=transparent&hide_border=true&ring=22d3ee&fire=f97316&currStreakLabel=a78bfa&sideLabels=e5e7eb&dates=94a3b8" />
 
-[![lord-saviord1 activity graph](https://github-readme-activity-graph.vercel.app/graph?username=lord-saviord1&bg_color=00000000&color=e5e7eb&line=22d3ee&point=a78bfa&area=true&hide_border=true)](https://github.com/lord-saviord1)
+<img src="./assets/activity.svg" alt="Commit activity over the last 30 days across featured projects." width="100%" />
 
 </div>
 
@@ -491,6 +490,8 @@ LASU Connect is a student-built platform for **real-time communication, events a
 ![Profile views](https://komarev.com/ghpvc/?username=lord-saviord1&style=flat-square&color=06b6d4)
 
 ### `STATUS: BUILDING DEPTH INTO THE WEB`
+
+<img src="./assets/status.svg" alt="Profile status: README age and daily telemetry sync, streak and downtime." width="100%" />
 
 </div>
 
