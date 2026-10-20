@@ -379,7 +379,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <table width="100%">
 <tr>
 <td><b>Status</b><br/>✅ healthy</td>
-<td><b>Last updated (UTC)</b><br/><code>2026-10-20T00:37:19.594Z</code></td>
+<td><b>Last updated (UTC)</b><br/><code>2026-10-20T02:57:15.808Z</code></td>
 <td><b>Data source</b><br/>GitHub REST API v3</td>
 <td><b>Projects scanned</b><br/><code>15/15</code></td>
 <td><b>Commit window</b><br/><code>30 days</code> · per repo cap <code>100 commits</code></td>
@@ -414,7 +414,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 | Project | Stack / languages | Last update | Latest commit | Deployment | Provider |
 |---|---|---|---|---|---|
-| [lord-saviord1/lasu-connect](https://github.com/lord-saviord1/lasu-connect) | HTML 48.43% · JavaScript 48.06% · CSS 3.52% | 2026-10-17 | [83bf6c3](https://github.com/lord-saviord1/lasu-connect/commit/83bf6c39ad3e36ff8246f499b43b11617119d417) · 2026-10-17 · Cipher · Events and Channels: convert, mount routes, seed script | [https://lasu-connect.netlify.app/](https://lasu-connect.netlify.app/) | Netlify |
+| [lord-saviord1/lasu-connect](https://github.com/lord-saviord1/lasu-connect) | JavaScript 47.87% · HTML 47.62% · CSS 4.5% | 2026-10-20 | [eb23d74](https://github.com/lord-saviord1/lasu-connect/commit/eb23d74db5523ee13e67fca34535aac0eb77a483) · 2026-10-20 · Cipher · terminal push: modified frontend to call channels abd events page, ne... | [https://lasu-connect.netlify.app/](https://lasu-connect.netlify.app/) | Netlify |
 | [lord-saviord1/tag-it-on](https://github.com/lord-saviord1/tag-it-on) | TypeScript 75.2% · CSS 24.58% · JavaScript 0.22% | 2026-10-17 | [659069c](https://github.com/lord-saviord1/tag-it-on/commit/659069c48f61c4b1e3d2c23f1f193032e2129603) · 2026-10-17 · Daniel Savior Ozoemena · Performance pass: draw only when visible, environment-lit roll-on, pe... | [https://tagiton.cipherpr.live](https://tagiton.cipherpr.live) | Cloudflare |
 | [lord-saviord1/jochebed](https://github.com/lord-saviord1/jochebed) | HTML 43.28% · JavaScript 34.78% · CSS 21.94% | 2026-10-16 | [f3624e9](https://github.com/lord-saviord1/jochebed/commit/f3624e9dc3b7bfded3f9d2f75933ca426a1c2f78) · 2026-10-16 · Daniel Savior Ozoemena · Add link previews, icons and SEO files | [https://jochebedstouch.cipherpr.live](https://jochebedstouch.cipherpr.live) | Cloudflare |
 | [lord-saviord1/Penova](https://github.com/lord-saviord1/Penova) | TypeScript 96.11% · CSS 3.63% · JavaScript 0.27% | 2026-10-16 | [ef76f41](https://github.com/lord-saviord1/Penova/commit/ef76f41bb405a4876daf9db65138a4cb9808874d) · 2026-10-16 · Daniel Savior Ozoemena · Update globals.css | [https://penova-eight.vercel.app](https://penova-eight.vercel.app) | Vercel |
@@ -434,11 +434,11 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 | Language | Bytes | Percentage |
 |---|---:|---:|
-| JavaScript | 642,763 | 40.39% |
-| HTML | 588,686 | 36.99% |
-| TypeScript | 229,757 | 14.44% |
-| CSS | 114,897 | 7.22% |
-| Dart | 15,343 | 0.96% |
+| JavaScript | 651,097 | 40.44% |
+| HTML | 594,888 | 36.95% |
+| TypeScript | 229,757 | 14.27% |
+| CSS | 119,087 | 7.4% |
+| Dart | 15,343 | 0.95% |
 
 <h2 align="center"><code>// TELEMETRY NOTES</code></h2>
 

@@ -2,7 +2,7 @@
   "data_source": "GitHub REST API v3",
   "generated_by": "telemetry/generate-telemetry.js",
   "source_profile_repository": "lord-saviord1/lord-saviord1",
-  "last_updated": "2026-10-20T00:37:19.594Z",
+  "last_updated": "2026-10-20T02:57:15.808Z",
   "recent_commit_window_days": 30,
   "project_count": 15,
   "successful_project_count": 15,
@@ -20,31 +20,32 @@
       "repo_url": "https://github.com/lord-saviord1/lasu-connect",
       "default_branch": "master",
       "description": null,
-      "primary_language": "HTML",
+      "primary_language": "JavaScript",
       "languages": {
         "bytes": {
-          "HTML": 163981,
-          "JavaScript": 162733,
-          "CSS": 11907
+          "JavaScript": 171067,
+          "HTML": 170183,
+          "CSS": 16097
         },
         "percentages": {
-          "HTML": 48.43,
-          "JavaScript": 48.06,
-          "CSS": 3.52
+          "JavaScript": 47.87,
+          "HTML": 47.62,
+          "CSS": 4.5
         }
       },
-      "pushed_at": "2026-10-17T21:57:17Z",
-      "updated_at": "2026-10-17T21:57:20Z",
-      "latest_activity_at": "2026-10-17T21:57:17Z",
+      "pushed_at": "2026-10-20T02:33:22Z",
+      "updated_at": "2026-10-20T02:33:26Z",
+      "latest_activity_at": "2026-10-20T02:33:22Z",
       "latest_commit": {
-        "sha": "83bf6c39ad3e36ff8246f499b43b11617119d417",
-        "date": "2026-10-17T21:57:04Z",
+        "sha": "eb23d74db5523ee13e67fca34535aac0eb77a483",
+        "date": "2026-10-20T02:32:42Z",
         "author": "Cipher",
-        "message": "Events and Channels: convert, mount routes, seed script",
-        "url": "https://github.com/lord-saviord1/lasu-connect/commit/83bf6c39ad3e36ff8246f499b43b11617119d417"
+        "message": "terminal push: modified frontend to call channels abd events page, ne...",
+        "url": "https://github.com/lord-saviord1/lasu-connect/commit/eb23d74db5523ee13e67fca34535aac0eb77a483"
       },
-      "recent_commit_count": 5,
+      "recent_commit_count": 6,
       "recent_commit_dates": [
+        "2026-10-20",
         "2026-10-17",
         "2026-10-15",
         "2026-10-15",
@@ -58,7 +59,7 @@
       "deployment_hostname": "lasu-connect.netlify.app",
       "provider": "Netlify",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:11.782Z",
+      "last_updated": "2026-10-20T02:57:08.655Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -112,7 +113,7 @@
       "deployment_hostname": "tagiton.cipherpr.live",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:12.360Z",
+      "last_updated": "2026-10-20T02:57:09.251Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -170,7 +171,7 @@
       "deployment_hostname": "jochebedstouch.cipherpr.live",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:12.947Z",
+      "last_updated": "2026-10-20T02:57:09.829Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -265,7 +266,7 @@
       "deployment_hostname": "penova-eight.vercel.app",
       "provider": "Vercel",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:13.741Z",
+      "last_updated": "2026-10-20T02:57:10.522Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -304,7 +305,7 @@
       "deployment_hostname": "portfolio.cipherpr.me",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:14.287Z",
+      "last_updated": "2026-10-20T02:57:10.971Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -352,7 +353,7 @@
       "deployment_hostname": "cipherpr.tech",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:14.816Z",
+      "last_updated": "2026-10-20T02:57:11.435Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -393,7 +394,7 @@
       "deployment_hostname": "cipherpr.live",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:15.342Z",
+      "last_updated": "2026-10-20T02:57:11.877Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -434,7 +435,7 @@
       "deployment_hostname": "cipherpr.me",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:15.892Z",
+      "last_updated": "2026-10-20T02:57:12.355Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -473,7 +474,7 @@
       "deployment_hostname": "fullmidnightshutdown.cipherpr.live",
       "provider": "Cloudflare",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:16.387Z",
+      "last_updated": "2026-10-20T02:57:12.876Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -510,7 +511,7 @@
       "deployment_hostname": null,
       "provider": "—",
       "provider_provenance": "unknown",
-      "last_updated": "2026-10-20T00:37:16.997Z",
+      "last_updated": "2026-10-20T02:57:13.303Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -551,7 +552,7 @@
       "deployment_hostname": "cipherstream-frontend.vercel.app",
       "provider": "Vercel",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:17.514Z",
+      "last_updated": "2026-10-20T02:57:13.772Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -588,7 +589,7 @@
       "deployment_hostname": "cipherstream-backend.vercel.app",
       "provider": "Vercel",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:18.020Z",
+      "last_updated": "2026-10-20T02:57:14.314Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -627,7 +628,7 @@
       "deployment_hostname": "cipherstream-admin.vercel.app",
       "provider": "Vercel",
       "provider_provenance": "inferred_from_deployment_url",
-      "last_updated": "2026-10-20T00:37:18.467Z",
+      "last_updated": "2026-10-20T02:57:14.801Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -664,7 +665,7 @@
       "deployment_hostname": null,
       "provider": "—",
       "provider_provenance": "unknown",
-      "last_updated": "2026-10-20T00:37:18.965Z",
+      "last_updated": "2026-10-20T02:57:15.305Z",
       "data_source": "GitHub REST API v3"
     },
     {
@@ -712,35 +713,35 @@
       "deployment_hostname": null,
       "provider": "—",
       "provider_provenance": "unknown",
-      "last_updated": "2026-10-20T00:37:19.589Z",
+      "last_updated": "2026-10-20T02:57:15.800Z",
       "data_source": "GitHub REST API v3"
     }
   ],
   "language_telemetry": [
     {
       "language": "JavaScript",
-      "bytes": 642763,
-      "percentage": 40.39
+      "bytes": 651097,
+      "percentage": 40.44
     },
     {
       "language": "HTML",
-      "bytes": 588686,
-      "percentage": 36.99
+      "bytes": 594888,
+      "percentage": 36.95
     },
     {
       "language": "TypeScript",
       "bytes": 229757,
-      "percentage": 14.44
+      "percentage": 14.27
     },
     {
       "language": "CSS",
-      "bytes": 114897,
-      "percentage": 7.22
+      "bytes": 119087,
+      "percentage": 7.4
     },
     {
       "language": "Dart",
       "bytes": 15343,
-      "percentage": 0.96
+      "percentage": 0.95
     }
   ],
   "service_zones": [
