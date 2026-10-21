@@ -7,7 +7,7 @@
 ### **PRODUCT ENGINEER · IMMERSIVE WEB BUILDER · CIPHER PR**
 
 <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="96" alt="GitHub YOLO achievement" />
-<img src="https://github.com/users/lord-saviord1/achievements/pull-shark" width="96" alt="GitHub Pull Shark achievement" />
+<img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="96" alt="GitHub Pull Shark achievement" />
 
 [![YOLO](https://img.shields.io/badge/ACHIEVEMENT-YOLO-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lord-saviord1?tab=achievements)
 [![Git workflow](https://img.shields.io/badge/WORKFLOW-Git%20%2B%20GitHub-F05032?style=for-the-badge&logo=git&logoColor=white)](https://github.com/lord-saviord1)
