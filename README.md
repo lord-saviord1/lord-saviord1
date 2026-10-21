@@ -380,7 +380,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <table width="100%">
 <tr>
 <td><b>Status</b><br/>✅ healthy</td>
-<td><b>Last updated (UTC)</b><br/><code>2026-10-20T09:55:42.475Z</code></td>
+<td><b>Last updated (UTC)</b><br/><code>2026-10-21T07:14:13.560Z</code></td>
 <td><b>Data source</b><br/>GitHub REST API v3</td>
 <td><b>Projects scanned</b><br/><code>15/15</code></td>
 <td><b>Commit window</b><br/><code>30 days</code> · per repo cap <code>100 commits</code></td>
@@ -416,7 +416,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 | Project | Stack / languages | Last update | Latest commit | Deployment | Provider |
 |---|---|---|---|---|---|
 | [lord-saviord1/lasu-connect](https://github.com/lord-saviord1/lasu-connect) | JavaScript 47.87% · HTML 47.62% · CSS 4.5% | 2026-10-20 | [eb23d74](https://github.com/lord-saviord1/lasu-connect/commit/eb23d74db5523ee13e67fca34535aac0eb77a483) · 2026-10-20 · Cipher · terminal push: modified frontend to call channels abd events page, ne... | [https://lasu-connect.netlify.app/](https://lasu-connect.netlify.app/) | Netlify |
-| [lord-saviord1/tag-it-on](https://github.com/lord-saviord1/tag-it-on) | TypeScript 75.2% · CSS 24.58% · JavaScript 0.22% | 2026-10-17 | [659069c](https://github.com/lord-saviord1/tag-it-on/commit/659069c48f61c4b1e3d2c23f1f193032e2129603) · 2026-10-17 · Daniel Savior Ozoemena · Performance pass: draw only when visible, environment-lit roll-on, pe... | [https://tagiton.cipherpr.live](https://tagiton.cipherpr.live) | Cloudflare |
+| [lord-saviord1/tag-it-on](https://github.com/lord-saviord1/tag-it-on) | TypeScript 70.25% · CSS 22.1% · Python 7.45% | 2026-10-21 | [e8a84dc](https://github.com/lord-saviord1/tag-it-on/commit/e8a84dc228788e15ddab8f2ec0a9bbfe78f51b22) · 2026-10-21 · Daniel Savior Ozoemena · Merge pull request #3 from lord-saviord1/stud-3d-bottle-to-real-rende... | [https://tagiton.cipherpr.live](https://tagiton.cipherpr.live) | Cloudflare |
 | [lord-saviord1/jochebed](https://github.com/lord-saviord1/jochebed) | HTML 43.28% · JavaScript 34.78% · CSS 21.94% | 2026-10-16 | [f3624e9](https://github.com/lord-saviord1/jochebed/commit/f3624e9dc3b7bfded3f9d2f75933ca426a1c2f78) · 2026-10-16 · Daniel Savior Ozoemena · Add link previews, icons and SEO files | [https://jochebedstouch.cipherpr.live](https://jochebedstouch.cipherpr.live) | Cloudflare |
 | [lord-saviord1/Penova](https://github.com/lord-saviord1/Penova) | TypeScript 96.11% · CSS 3.63% · JavaScript 0.27% | 2026-10-16 | [ef76f41](https://github.com/lord-saviord1/Penova/commit/ef76f41bb405a4876daf9db65138a4cb9808874d) · 2026-10-16 · Daniel Savior Ozoemena · Update globals.css | [https://penova-eight.vercel.app](https://penova-eight.vercel.app) | Vercel |
 | [lord-saviord1/siteaboutme](https://github.com/lord-saviord1/siteaboutme) | HTML 100% | 2026-10-13 | [df84d54](https://github.com/lord-saviord1/siteaboutme/commit/df84d5435bf33ca00735aeb33174bf786ebfabb0) · 2026-10-13 · Daniel Savior Ozoemena · Refactor z-index and improve 3D layer comments | [https://portfolio.cipherpr.me](https://portfolio.cipherpr.me) | Cloudflare |
@@ -435,11 +435,12 @@ LASU Connect is a student-built platform for **real-time communication, events a
 
 | Language | Bytes | Percentage |
 |---|---:|---:|
-| JavaScript | 651,097 | 40.44% |
-| HTML | 594,888 | 36.95% |
-| TypeScript | 229,757 | 14.27% |
-| CSS | 119,087 | 7.4% |
-| Dart | 15,343 | 0.95% |
+| JavaScript | 651,097 | 40.03% |
+| HTML | 594,888 | 36.57% |
+| TypeScript | 234,087 | 14.39% |
+| CSS | 119,087 | 7.32% |
+| Dart | 15,343 | 0.94% |
+| Python | 12,131 | 0.75% |
 
 <h2 align="center"><code>// TELEMETRY NOTES</code></h2>
 
