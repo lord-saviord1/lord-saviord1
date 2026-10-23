@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 456" width="880" height="456" role="img" aria-label="GitHub telemetry: 38 public repositories, 15/15 featured projects scanned, 114 commits in the last 30 days across them, 12 featured projects with a live URL, last synced 2026-10-22.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 456" width="880" height="456" role="img" aria-label="GitHub telemetry: 38 public repositories, 15/15 featured projects scanned, 114 commits in the last 30 days across them, 12 featured projects with a live URL, last synced 2026-10-23.">
 <title>GitHub telemetry for lord-saviord1</title>
 <style>
   text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
@@ -123,6 +123,6 @@
   <text x="790" y="346" fill="#5fd38d" style="font-size:12px;font-weight:700">0.7%</text>
 </g>
 <line x1="0" y1="420" x2="880" y2="420" stroke="#1f2e24"/>
-<text x="20" y="442" fill="#6f8a76" style="font-size:11px">featured = repos listed in telemetry/projects.json · public repos = whole account · synced 2026-10-22 · all numbers from the GitHub API</text>
+<text x="20" y="442" fill="#6f8a76" style="font-size:11px">featured = repos listed in telemetry/projects.json · public repos = whole account · synced 2026-10-23 · all numbers from the GitHub API</text>
 <rect class="blink" x="850" y="431" width="8" height="13" fill="#5fd38d"/>
 </svg>
