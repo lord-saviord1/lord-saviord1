@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 456" width="880" height="456" role="img" aria-label="GitHub telemetry: 38 public repositories, 15/15 featured projects scanned, 114 commits in the last 30 days across them, 12 featured projects with a live URL, last synced 2026-10-25.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 456" width="880" height="456" role="img" aria-label="GitHub telemetry: — public repositories, 15/15 featured projects scanned, 114 commits in the last 30 days across them, 12 featured projects with a live URL, last synced 2026-10-26.">
 <title>GitHub telemetry for lord-saviord1</title>
 <style>
   text{font-family:Consolas, 'Cascadia Mono', SFMono-Regular, Menlo, 'Liberation Mono', 'Courier New', monospace;font-size:12px}
@@ -17,7 +17,7 @@
 <g class="ap" style="animation-delay:0.1s">
   <rect x="20" y="58" width="201" height="84" rx="6" fill="#101a14" stroke="#1f2e24"/>
   <text x="34" y="82" fill="#6f8a76" style="font-size:10.5px;letter-spacing:.08em">PUBLIC REPOS</text>
-  <text x="34" y="124" fill="#f2c94c" style="font-size:34px;font-weight:700">38</text>
+  <text x="34" y="124" fill="#f2c94c" style="font-size:34px;font-weight:700">—</text>
 </g>
 <g class="ap" style="animation-delay:0.22s">
   <rect x="233" y="58" width="201" height="84" rx="6" fill="#101a14" stroke="#1f2e24"/>
@@ -123,6 +123,6 @@
   <text x="790" y="346" fill="#5fd38d" style="font-size:12px;font-weight:700">0.7%</text>
 </g>
 <line x1="0" y1="420" x2="880" y2="420" stroke="#1f2e24"/>
-<text x="20" y="442" fill="#6f8a76" style="font-size:11px">featured = repos listed in telemetry/projects.json · public repos = whole account · synced 2026-10-25 · all numbers from the GitHub API</text>
+<text x="20" y="442" fill="#6f8a76" style="font-size:11px">featured = repos listed in telemetry/projects.json · public repos = whole account · synced 2026-10-26 · all numbers from the GitHub API</text>
 <rect class="blink" x="850" y="431" width="8" height="13" fill="#5fd38d"/>
 </svg>
