@@ -380,7 +380,7 @@ LASU Connect is a student-built platform for **real-time communication, events a
 <table width="100%">
 <tr>
 <td><b>Status</b><br/>✅ healthy</td>
-<td><b>Last updated (UTC)</b><br/><code>2026-11-16T13:29:07.268Z</code></td>
+<td><b>Last updated (UTC)</b><br/><code>2026-11-17T14:14:40.971Z</code></td>
 <td><b>Data source</b><br/>GitHub REST API v3</td>
 <td><b>Projects scanned</b><br/><code>15/15</code></td>
 <td><b>Commit window</b><br/><code>30 days</code> · per repo cap <code>100 commits</code></td>
